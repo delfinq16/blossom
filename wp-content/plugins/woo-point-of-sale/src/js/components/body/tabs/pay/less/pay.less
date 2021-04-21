@@ -1,0 +1,335 @@
+.pos-pay {
+    width: 100%;
+    vertical-align: top;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+    height: 100%;
+    overflow-y: auto;
+
+    .apply-coupon {
+        margin: 30px 0px 10px 20px;
+        padding: 20px;
+        background: #e9e9e9;
+
+        input {
+            display: inline-block;
+            width: 70%;
+        }
+
+        button {
+            float: right;
+            width: 200px;
+        }
+    }
+
+    .pos-payment-head {
+        padding: 5px 20px 0px;
+
+        a {
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 10px;
+            &:focus {
+                outline: none;
+            }
+        }
+
+    }
+
+    .calculate-pay {
+        display: block;
+        max-width: 768px;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        overflow-y: auto;
+
+        >h3 {
+            display: block;
+            margin: 15px 20px 0px;
+        }
+
+        .pos-customer {
+            border: 1px solid #333;
+            padding: 10px 20px;
+            margin-top: 30px;
+            margin-left: 20px;
+
+            p {
+                display: inline-block;
+                font-size: 22px;
+                margin-bottom: 0px;
+                margin-left: 10px;
+            }
+
+            i {
+                display: inline-block;
+                font-size: 30px;
+
+            }
+
+            a {
+                float: right;
+                padding: 5px 10px 4px 10px;
+            }
+        }
+    }
+
+    .pos-customer-payment {
+        display: inline-block;
+        width: 100%;
+        max-height: 1;
+
+        .payment-type {
+            margin-left: 20px;
+            margin-top: 30px;
+
+            #payment-method{
+                width: 45%;
+                float: left;
+                border: 1px solid #ccc;
+                padding: 5px 10px;
+                background: #fff;
+                display: inline-block;
+                margin: 20px 0px 20px;
+            }
+
+            .tab-content-container {
+
+                #split {
+
+                    .KeypadHandle {
+                        float: left;
+                        display: inline;
+                    }
+
+                    span {
+                        font-size: 20px;
+                        margin-right: 5px;
+                        display: inline-block;
+                    }
+
+                    .calc-total {
+
+                        div {
+                            text-align: right;
+                            margin-bottom: 18px;
+
+                        }
+                    }
+
+                    h3 {
+                        font-size: 20px;
+                        font-weight: 400;
+                        margin-bottom: 0px;
+                        color: #DB324D;
+                        display: inline-block;
+                    }
+                }
+
+                .split-button {
+
+
+                    .pay-active {
+
+                        background-color: #fff;
+                        border-bottom: 3px solid #DB324D;
+                    }
+
+                    .splitCardPayment, .splitCashPayment {
+                        width: 45%;
+                        padding: 10px;
+                        margin: 0;
+                        box-sizing: content-box;
+                    }
+                }
+                .KeypadHandle{
+                    display: inline-block;
+                }
+
+                .calc-total {
+
+                    vertical-align: top;
+                    width: 290px;
+                    padding-bottom: 0;
+                    float: right;
+
+                    span {
+                        font-size: 20px;
+                        margin-bottom: 5px;
+                        float: left;
+                        margin-left: 10px;
+                    }
+
+                    h2 {
+                        font-size: 18px;
+                        margin: 0;
+                        font-weight: 600;
+                        color: #000;
+                        padding: 12px;
+                    }
+
+                    h3 {
+                        font-size: 20px;
+                        font-weight: 400;
+                        margin-bottom: 0px;
+                        color: #DB324D;
+                        display: inline-block;
+                        margin-right: 5px;
+                    }
+
+                    hr {
+                        background-color: #ccc;
+                        border: 0;
+                        height: 1px;
+                        margin: 0px auto 25px;
+                        width: 100%;
+                    }
+
+                    #payment-total {
+                        h3 {
+                            color: #6D6D6D;
+                        }
+                    }
+
+                    #payment-tendered {
+                        h3 {
+                            color: #79A22D;
+                        }
+                    }
+
+                    >div {
+                        text-align: right;
+                        margin-bottom: 20px;
+
+
+                    }
+
+                    >div:last-child {
+                        border-bottom: none;
+                        margin-bottom: 0px;
+                    }
+
+                    textarea {
+                        margin-top: 30px;
+
+                        &:focus {
+                            border-color: #333;
+                            outline: none;
+                            box-shadow: none;
+                            background-color: #fff;
+                        }
+                    }
+                }
+
+                /* // numeric keypad. */
+                .numeric-keypad {
+                    bottom: 0;
+                    padding: 0px;
+                    float: left;
+                    font: 0px;
+                    margin-top: 10px;
+
+                    .numeric-keypad-button-row {
+                        font-size: 0px;
+
+                        &:nth-child(2),
+                        &:nth-child(3),
+                        &:nth-child(4) {
+                            button {
+                                border-top: none;
+                            }
+                        }
+
+                        &:nth-child(even) {
+                            border-left: none;
+                            border-right: none;
+                        }
+
+                        button {
+
+                            &:hover,
+                            &:focus {
+                                background-color: #ccc;
+                                border: none;
+                                outline: none !important;
+                            }
+                        }
+
+                        .numeric-keypad-button {
+                            background-color: #ffffff;
+                            border: 1px solid #ccc;
+                            border-radius: 0px;
+                            color: #000000;
+                            font-size: 20px;
+                            height: 55px;
+                            margin: 0px;
+                            width: 105px;
+                            box-shadow: none;
+                            outline: none;
+                            display: inline-block;
+                            vertical-align: top;
+                        }
+                        .key-delete{
+                            width: 325px;
+
+						}
+						.key-put{
+                            width: 115px;
+                            font-size:16px
+                        }
+                        .key-done {
+                            background-color: #00e777;
+                            font-size: 15px;
+                            text-transform: uppercase;
+                        }
+
+                        .key-del {
+                            font-size: 15px;
+                        }
+
+                        .key-dot {
+                            font-size: 15px;
+                        }
+
+                    }
+
+                }
+
+                .pay {
+                    display: none;
+                }
+            }
+
+            .invoice-generate {
+
+                margin-top:20px;
+                text-align: right;
+                width: 50%;
+                float: right;
+
+                button {
+                    font-size: 18px;
+                    margin-top: 20px;
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+
+                button:disabled {
+                    opacity: .4;
+                    cursor: not-allowed;
+                }
+            }
+
+            .process-invoice{
+
+                background-color: #AD599B;
+                color: #fff;
+            }
+
+
+
+        }
+    }
+
+}

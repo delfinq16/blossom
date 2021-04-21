@@ -1,0 +1,39 @@
+2020-07-16 16:23:17
+<b>ewww_image_optimizer_tool_init()</b>
+<b>ewww_image_optimizer_install_tools()</b>
+Checking/Installing tools in /home2/urbante3/public_html/blossom/wp-content/ewww/
+wp-content/ewww permissions: 0755
+<b>ewww_image_optimizer_install_paths()</b>
+CPU architecture: x86_64
+generated paths:
+/home2/urbante3/public_html/blossom/wp-content/plugins/ewww-image-optimizer/binaries/jpegtran-linux
+/home2/urbante3/public_html/blossom/wp-content/plugins/ewww-image-optimizer/binaries/optipng-linux
+/home2/urbante3/public_html/blossom/wp-content/plugins/ewww-image-optimizer/binaries/gifsicle-linux
+/home2/urbante3/public_html/blossom/wp-content/plugins/ewww-image-optimizer/binaries/pngquant-linux
+/home2/urbante3/public_html/blossom/wp-content/plugins/ewww-image-optimizer/binaries/cwebp-linux
+/home2/urbante3/public_html/blossom/wp-content/ewww/jpegtran
+/home2/urbante3/public_html/blossom/wp-content/ewww/optipng
+/home2/urbante3/public_html/blossom/wp-content/ewww/gifsicle
+/home2/urbante3/public_html/blossom/wp-content/ewww/pngquant
+/home2/urbante3/public_html/blossom/wp-content/ewww/cwebp
+<b>ewww_image_optimizer_skip_tools()</b>
+enabled: jpegtran
+enabled: optipng
+enabled: gifsicle
+enabled: webp
+Linux/UNIX style OS, checking permissions
+<b>ewww_image_optimizer_check_permissions()</b>
+permissions for /home2/urbante3/public_html/blossom/wp-content/ewww/jpegtran: 0755
+permissions ok
+<b>ewww_image_optimizer_check_permissions()</b>
+permissions for /home2/urbante3/public_html/blossom/wp-content/ewww/gifsicle: 0755
+permissions ok
+<b>ewww_image_optimizer_check_permissions()</b>
+permissions for /home2/urbante3/public_html/blossom/wp-content/ewww/optipng: 0755
+permissions ok
+<b>ewww_image_optimizer_check_permissions()</b>
+permissions for /home2/urbante3/public_html/blossom/wp-content/ewww/cwebp: 0755
+permissions ok
+2020-07-16 16:23:18
+<b>ewww_image_optimizer_init()</b>
+checking active plugins

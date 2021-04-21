@@ -1,0 +1,14 @@
+.wkwcpos-invoice-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 'first first first' 'second third fourth';
+}
+.wkwcpos-invoice-container.editable {
+    .wkwcpos-invoice-wrapper .wkwcpos-invoice-editable:hover {
+        cursor:pointer;
+        box-shadow: inset 0px 0px 2px 1px blue;
+    }
+    .wkwcpos-invoice-wrapper .wkwcpos-invoice-edit {
+        box-shadow: inset 0px 0px 2px 1px blue;
+    }
+}

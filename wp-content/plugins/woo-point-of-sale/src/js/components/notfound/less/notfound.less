@@ -1,0 +1,38 @@
+@tablet:    ~"only screen and (min-width: 720px) and (max-width: 959px)";
+
+.wkwcpos-not-found {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    padding: 50px;
+    height: calc( 100% - 50px );
+    overflow-y: auto;
+    span {
+        color: #96588a;
+    }
+    h1 {
+        font-size: 125px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+    h2 {
+        font-size: 44px;
+        margin-bottom: 25px;
+    }
+    p {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    @media @tablet {
+        h1 {
+            font-size: 95px;
+        }
+        h2 {
+            font-size: 28px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+.wkwcpos-button-wrapper {
+    padding: 10px;
+    margin-bottom: 10px;
+    grid-area: first;
+
+    .wkwcpos-add-element-wrapper {
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 2px;
+        width: 400px;
+        box-shadow: 2px 2px 8px 1px #999;
+        position: absolute;
+        margin-top: 10px;
+
+        h3 {
+            margin-top: 0;
+        }
+
+        p, ul {
+            margin: 0;
+        }
+
+        ul li {
+            display: inline-block;
+            text-align: center;
+            padding: 10px;
+            margin: 0;
+
+            span {
+                display: inline-block;
+            }
+
+            .wkwcpos-element-icon {
+                font-size: 30px;
+            }
+
+            &:hover {
+                cursor: pointer;
+                box-shadow: 1px 1px 4px 0px #999;
+            }
+        }
+    }
+}
+.wkwcpos-button-wrapper span.add-element {
+    background-color: #fff;
+    border-radius: 100%;
+    font-size: 42px;
+    color: #555;
+    line-height: 1.2;
+    padding: 0px 14px 5px;
+    cursor: pointer;
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 1px 1px 4px 0px #999;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+.wkwcpos-button-wrapper button.reset-invoice {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 12px;
+}

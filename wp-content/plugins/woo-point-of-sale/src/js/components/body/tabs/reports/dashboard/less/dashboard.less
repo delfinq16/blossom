@@ -1,0 +1,259 @@
+/** @format */
+
+// css dependencies 
+@import './../../../../../../../stylesheets/_index.less';
+
+.pos-report {
+    width: 100%;
+    overflow-y: auto;
+    height: calc( 100% - 58px );
+}
+.woocommerce-dashboard__columns {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: calc(50% - 12px) calc(50% - 12px);
+    grid-template-columns: calc(50% - 12px) calc(50% - 12px);
+    grid-column-gap: 24px;
+
+     // Auto-position fix for IE11.
+    >div {
+        .set-grid-item-position(2, 14);
+    } 
+}
+.woocommerce-segmented-selection__item label{
+    margin: 0 !important;
+}
+.woocommerce-section-header{
+    margin-bottom: 15px;
+}
+.woocommerce-dashboard__widget {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.woocommerce-dashboard__widget-item {
+    flex: 1;
+}
+
+.woocommerce-dashboard-section__add-more {
+    margin: 0 auto;
+    width: 84px;
+    padding: 0px @gap-large @gap-large;
+
+    .components-popover__content {
+        padding: 0px @gap @gap-smaller;
+    }
+}
+
+.woocommerce-dashboard-section__add-more-choices {
+    display: flex;
+    justify-content: center;
+}
+
+.woocommerce-dashboard-section__add-more-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: @gap;
+    margin: @gap-smaller;
+
+    .dashicons-arrow-right-alt {
+        transform: rotate(-45deg);
+    }
+}
+
+.woocommerce-dashboard-section__add-more-btn-title {
+    color: @core-grey-dark-300;
+    padding-top: 8px;
+}
+
+.woocommerce-dashboard-section-controls {
+    border-top: @border-width solid @core-grey-light-500;
+    padding-top: @gap-smaller;
+
+    .dashicon {
+        margin: 0 @gap-smaller 0 0;
+        vertical-align: bottom;
+    }
+
+    .woocommerce-ellipsis-menu__item {
+        padding-bottom: 10px;
+    }
+}
+
+.woocommerce-onboarding {
+    .woocommerce-stepper .woocommerce-stepper__step {
+        .woocommerce-stepper__step-label {
+            color: @studio-gray-80;
+        }
+
+        &.is-active,
+        &.is-complete {
+            .woocommerce-stepper__step-icon {
+                background: @studio-woocommerce-purple-60;
+                color: @studio-white;
+            }
+
+            .woocommerce-stepper__step-label {
+                color: @studio-gray-90;
+            }
+        }
+
+        .woocommerce-spinner {
+            background: @studio-woocommerce-purple-60;
+        }
+    }
+
+    /* Muriel style overrides */
+    .muriel-component {
+        margin-top: @gap;
+        margin-bottom: @gap;
+    }
+
+    .components-base-control.has-error {
+        margin-bottom: @gap * 2 !important;
+        border-color: @studio-red-50;
+
+        .components-base-control__help {
+            top: 100%;
+            position: absolute;
+            margin-top: @gap-smallest;
+            font-size: 12px;
+            font-style: normal;
+            color: @studio-red-50;
+        }
+    }
+
+    .muriel-input-text {
+        &.empty {
+            .components-base-control__label {
+                display: none;
+            }
+
+            input {
+                top: 14px;
+            }
+        }
+
+        input[type='text']:focus {
+            box-shadow: none;
+            border: 0;
+        }
+    }
+
+    .muriel-input-text label,
+    .muriel-select label {
+        display: initial;
+        width: auto;
+        right: auto;
+        left: @gap;
+    }
+
+    .muriel-select select {
+        left: 15px;
+    }
+
+    .muriel-select.empty label {
+        top: 15px;
+    }
+
+    .muriel-select::after {
+        margin-top: -@gap-smallest;
+    }
+
+    .muriel-input-text,
+    .muriel-select {
+
+        &.with-value,
+        &.active {
+            label {
+                display: block;
+                top: 8px;
+            }
+
+            input,
+            select {
+                top: 24px;
+            }
+        }
+    }
+
+    .muriel-input-text.active,
+    .muriel-select.active {
+        box-shadow: 0 0 0 2px @studio-woocommerce-purple-60;
+        border-color: transparent;
+    }
+
+    .muriel-checkbox label.components-checkbox-control__label {
+        margin-left: @gap-smaller;
+    }
+
+    .muriel-checkbox input[type='checkbox'] {
+        width: 18px;
+        height: 18px;
+    }
+
+    .muriel-checkbox input[type='checkbox']:checked::before {
+        font-size: 18px;
+        margin-left: -3px;
+        margin-top: -1px;
+    }
+ 
+    .muriel-checkbox input[type='checkbox']:checked {
+        background-color: @studio-woocommerce-purple-60;
+        border-color: @studio-woocommerce-purple-60;
+    }
+
+    .components-form-toggle {
+        display: inline-block;
+
+        label {
+            font-size: 14px;
+        }
+
+        .components-base-control {
+            display: inline-block;
+        }
+
+        .components-form-toggle__track {
+            width: 36px;
+            max-width: 36px;
+            height: 18px;
+            max-height: 18px;
+        }
+
+        .components-base-control__field {
+            margin-bottom: 0;
+        }
+
+        .muriel-checkbox label.components-checkbox-control__label {
+            margin-left: @gap-large;
+        }
+
+        &.is-checked {
+            .components-form-toggle__track {
+                background-color: @studio-woocommerce-purple-60;
+                border-color: @studio-woocommerce-purple-60;
+            }
+        }
+    }
+}
+ 
+.woocommerce-segmented-selection__label{
+    font-size: 12px;
+}
+fieldset{
+    padding: 0px !important;
+    border: none !important;
+    box-shadow: none !important;
+    margin: 0px !important;
+    &:focus{
+        outline: none !important;
+    }
+}
+.CalendarMonth_table tr td,
+.CalendarMonth_table tr th {
+    padding: 0px !important;
+    vertical-align: middle;
+}

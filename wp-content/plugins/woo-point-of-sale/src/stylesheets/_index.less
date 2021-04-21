@@ -1,0 +1,21 @@
+/** @format */
+
+// Import our wp-admin reset.
+@import './abstracts/_colors.less';
+@import './abstracts/_variables.less'; 
+@import './abstracts/_mixins.less'; 
+
+// Some WooCommerce Point of Sale Reports page specific resets.
+.woocommerce-layout__primary { 
+
+	.breakpoint('>960px') {
+		margin-top: 100px;
+	}
+
+	.breakpoint('<782px') {
+		margin-top: 60px;
+	}
+}
+
+// Import any global styles.
+@import './shared/_global.less'; 

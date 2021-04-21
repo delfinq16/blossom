@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woodmart Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-13 19:39+0000\n"
+"PO-Revision-Date: 2018-07-13 19:43+0000\n"
+"Last-Translator: admin <jonathan@urbantech.mx>\n"
+"Language-Team: Español de México\n"
+"Language: es_MX\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. Name of the plugin
+msgid "Woodmart Core"
+msgstr "Woodmart Core"
+
+#. Description of the plugin
+msgid "Woodmart Core needed for Woodmart theme"
+msgstr "Woodmart Core necesario para el tema Woodmart"
