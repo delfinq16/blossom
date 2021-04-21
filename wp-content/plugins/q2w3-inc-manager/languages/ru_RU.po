@@ -1,0 +1,551 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Q2W3 Inc Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-17 00:00+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Max <maxbond2@gmail.com>\n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: q2w3-inc-manager.php:209
+msgid "PHP version"
+msgstr "Версия PHP"
+
+#: q2w3-inc-manager.php:209 q2w3-inc-manager.php:232
+msgid "is incompatible with this plugin. You need at least version"
+msgstr "не совместима с данным плагином. Требуется как минимум версия"
+
+#: q2w3-inc-manager.php:232
+msgid "Wordpress version"
+msgstr "Версия WordPress"
+
+#: q2w3-inc-manager.php:250
+msgid "Code Insert"
+msgstr "Вставка кода"
+
+#: q2w3-inc-manager.php:252
+msgid "Inserts"
+msgstr "Вставки"
+
+#: q2w3-inc-manager.php:254 q2w3-inc-manager.php:336
+#: q2w3-table/q2w3_table.php:79
+msgid "Add New"
+msgstr "Добавить новую"
+
+#: q2w3-inc-manager.php:256 q2w3-inc-manager.php:362
+#: q2w3-table/q2w3_table.php:165 q2w3_inc_manager_widget.php:94
+msgid "Settings"
+msgstr "Параметры"
+
+#: q2w3-inc-manager.php:302
+msgid "Q2W3 Inc Manager Homepage"
+msgstr "Домашняя страница плагина"
+
+#: q2w3-inc-manager.php:366
+msgid ""
+"Here you can select post types and taxonomies. Selected items will be "
+"available for \"Insert\" and \"Exclude\" filters. \"Expand\" option allows "
+"you to select individual posts/pages for each Post Type or Taxonomy group."
+msgstr ""
+"На этой странице вы можете выбрать типы записей и таксономий, которые будут "
+"доступны для фильтров \"Вставить\" и \"Исключить\". Опция \"Раскрыть\" "
+"добавляет в фильтры возможность выбора отдельных записей или страниц."
+
+#: q2w3-inc-manager.php:377
+msgid "Post Types"
+msgstr "Зарегистрированные типы постов"
+
+#: q2w3-inc-manager.php:407 q2w3-inc-manager.php:437 q2w3-inc-manager.php:471
+msgid "Expand"
+msgstr "Раскрыть"
+
+#: q2w3-inc-manager.php:409
+msgid "Add metabox for page head inserts"
+msgstr "Добавить метабокс для вставки в head"
+
+#: q2w3-inc-manager.php:411
+msgid "Add metabox for page footer inserts"
+msgstr "Добавить метабокс для вставки в футер"
+
+#: q2w3-inc-manager.php:423
+msgid "Taxonomies"
+msgstr "Зарегистрированные таксономии"
+
+#: q2w3-inc-manager.php:431
+#: q2w3-table/actions/q2w3_table_wp_page_select.php:112
+msgid "Post Formats"
+msgstr ""
+
+#: q2w3-inc-manager.php:485 q2w3-table/q2w3_table.php:704
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: q2w3-inc-manager.php:491
+msgid "If you like this plugin - help me to promote it! You can:"
+msgstr "Если этот плагин Вам понравился:"
+
+#: q2w3-inc-manager.php:495
+msgid "Translate it to unsupported language"
+msgstr "Сделайте перевод на язык, который еще не поддерживается"
+
+#: q2w3-inc-manager.php:497
+msgid "Rate it on the official Plugin Directory"
+msgstr "Оцените плагин на официальном сайте"
+
+#: q2w3-inc-manager.php:499
+msgid "Write a review or an article"
+msgstr "Напишите обзор или статью"
+
+#: q2w3-inc-manager.php:501
+msgid "Or just let your friends know about this plugin"
+msgstr "Просто расскажите о нем своим друзьям"
+
+#: q2w3-inc-manager.php:505
+msgid "Thank you!"
+msgstr "Спасибо!"
+
+#: q2w3-inc-manager.php:1077 q2w3-inc-manager.php:1083
+msgid "Code in "
+msgstr "Вставка кода в "
+
+#: q2w3-inc-manager.php:1144 q2w3-table/objects/q2w3_include_obj.php:159
+msgid "Active"
+msgstr "Включен"
+
+#: q2w3-inc-manager.php:1146 q2w3-table/objects/q2w3_include_obj.php:159
+msgid "Disabled"
+msgstr "Отключен"
+
+#: q2w3-inc-manager.php:1152
+msgid "Input code"
+msgstr "Введите код"
+
+#: q2w3-table/actions/q2w3_table_activate_selected.php:15
+#: q2w3-table/actions/q2w3_table_change_status.php:21
+msgid "Activate"
+msgstr "Активировать"
+
+#: q2w3-table/actions/q2w3_table_change_status.php:17
+#: q2w3-table/actions/q2w3_table_disable_selected.php:15
+msgid "Deactivate"
+msgstr "Деактивировать"
+
+#: q2w3-table/actions/q2w3_table_delete_row.php:17
+#: q2w3-table/actions/q2w3_table_delete_selected.php:15
+msgid "Delete"
+msgstr "Удалить"
+
+#: q2w3-table/actions/q2w3_table_wp_page_select.php:33
+#: q2w3-table/q2w3_table.php:169 q2w3-table/q2w3_table.php:285
+msgid "Apply"
+msgstr "Применить"
+
+#: q2w3-table/actions/q2w3_table_wp_page_select.php:35
+msgid "Cancel"
+msgstr "Отменить"
+
+#: q2w3-table/actions/q2w3_table_wp_page_select.php:43
+msgid "To select multiple pages or deselect page hold CTRL key"
+msgstr "Нажмите CTRL для выбора нескольких страниц"
+
+#: q2w3-table/actions/q2w3_table_wp_page_select.php:75
+#: q2w3-table/form_elements/q2w3_wp_page_select_input.php:59
+msgid "Pages"
+msgstr "Страницы"
+
+#: q2w3-table/actions/q2w3_table_wp_page_select.php:108
+#: q2w3-table/q2w3_table_func.php:245
+msgid "PF"
+msgstr "ФЗ"
+
+#: q2w3-table/actions/q2w3_table_wp_page_select.php:124
+#: q2w3-table/actions/q2w3_table_wp_page_select.php:154
+#: q2w3-table/filters/q2w3_table_location_filter.php:33
+#: q2w3-table/filters/q2w3_table_status_filter.php:33
+#: q2w3-table/objects/q2w3_include_obj.php:293
+#: q2w3-table/q2w3_table_func.php:215 q2w3-table/q2w3_table_func.php:231
+msgid "All"
+msgstr "Все"
+
+#: q2w3-table/actions/q2w3_table_wp_page_select.php:128
+#: q2w3-table/q2w3_table_func.php:217
+msgid "Archive"
+msgstr "Архив"
+
+#: q2w3-table/data_convert/q2w3_checkbox_conv.php:21
+msgid "Yes"
+msgstr "Да"
+
+#: q2w3-table/data_convert/q2w3_checkbox_conv.php:21
+msgid "No"
+msgstr "Нет"
+
+#: q2w3-table/filters/q2w3_table_page_filter.php:65
+msgid "from"
+msgstr "из"
+
+#: q2w3-table/filters/q2w3_table_search_title_filter.php:42
+msgid "Search"
+msgstr "Поиск"
+
+#: q2w3-table/form_elements/q2w3_wp_page_select_input.php:55
+msgid "Select pages"
+msgstr "Выбор страниц"
+
+#: q2w3-table/objects/_q2w3_table_obj.php:122
+msgid "Record updated"
+msgstr "Запись обновлена"
+
+#: q2w3-table/objects/_q2w3_table_obj.php:130
+#: q2w3-table/objects/_q2w3_table_obj.php:150
+#: q2w3-table/objects/_q2w3_table_obj.php:188
+msgid "DB error:"
+msgstr "Ошибка БД:"
+
+#: q2w3-table/objects/_q2w3_table_obj.php:144
+msgid "Record inserted"
+msgstr "Запись добавлена"
+
+#: q2w3-table/objects/_q2w3_table_obj.php:182
+msgid "Record(s) deleted"
+msgstr "Данные удалены"
+
+#: q2w3-table/objects/q2w3_include_obj.php:147
+msgid "Description"
+msgstr "Наименование"
+
+#: q2w3-table/objects/q2w3_include_obj.php:151
+msgid "Name/description of the included code. Required field"
+msgstr ""
+"Наименование или краткое описание вставляемого кода. Поле обязательное для "
+"заполнения"
+
+#: q2w3-table/objects/q2w3_include_obj.php:156
+msgid "Status"
+msgstr "Статус"
+
+#: q2w3-table/objects/q2w3_include_obj.php:161
+msgid "Active - code will be displayed, Disabled - code will not be displayed"
+msgstr "Включен - код отображается, Отключен - код не отображается"
+
+#: q2w3-table/objects/q2w3_include_obj.php:167
+msgid "Location"
+msgstr "Расположение"
+
+#: q2w3-table/objects/q2w3_include_obj.php:170
+msgid "Header"
+msgstr "Хэдер"
+
+#: q2w3-table/objects/q2w3_include_obj.php:170
+msgid "Footer"
+msgstr "Футер"
+
+#: q2w3-table/objects/q2w3_include_obj.php:170
+msgid "Widget"
+msgstr "Виджет"
+
+#: q2w3-table/objects/q2w3_include_obj.php:170
+msgid "Before page content"
+msgstr "В начале страницы"
+
+#: q2w3-table/objects/q2w3_include_obj.php:170
+msgid "After page content"
+msgstr "В конце страницы"
+
+#: q2w3-table/objects/q2w3_include_obj.php:170
+msgid "Before post content"
+msgstr "В начале записи"
+
+#: q2w3-table/objects/q2w3_include_obj.php:170
+msgid "After post excerpt"
+msgstr "После тега \"далее\""
+
+#: q2w3-table/objects/q2w3_include_obj.php:170
+msgid "After post content"
+msgstr "В конце записи"
+
+#: q2w3-table/objects/q2w3_include_obj.php:170
+msgid "Manual"
+msgstr "Ручной режим"
+
+#: q2w3-table/objects/q2w3_include_obj.php:170
+msgid "Shortcode"
+msgstr ""
+
+#: q2w3-table/objects/q2w3_include_obj.php:172
+msgid ""
+"Location where to place included code. If Widget selected, go to the Widget "
+"admin page to setup widget position. In Manual mode you must insert plugin "
+"function directly in to theme file"
+msgstr ""
+"Определяет расположение вставки на странице. Если выбрана опция Виджет, "
+"требуется дополнительная настройка виджета на странице Внешний вид->Виджеты. "
+"Если выбрана опция Ручной режим, php-функция вставляется на прямую в файл "
+"шаблона. Shortcode - используется для вставки в текст записи или страницы "
+"(работает аналогично вставке галлереи - [gallery])."
+
+#: q2w3-table/objects/q2w3_include_obj.php:178
+msgid "Widget Title"
+msgstr "Заголовок"
+
+#: q2w3-table/objects/q2w3_include_obj.php:187
+msgid "Priority"
+msgstr "Приоритет"
+
+#: q2w3-table/objects/q2w3_include_obj.php:191
+msgid "Determines display order of includes in the same location"
+msgstr ""
+"Определяет порядок отображения вставляемого кода в одном и том же "
+"местерасположения"
+
+#: q2w3-table/objects/q2w3_include_obj.php:197
+msgid "Insert on pages"
+msgstr "Вставить на страницы"
+
+#: q2w3-table/objects/q2w3_include_obj.php:201
+msgid ""
+"Pages where code CAN BE shown. Hold CTRL key for multiple select or deselect "
+"pages. Required field"
+msgstr "Страницы для вставки кода. Поле обязательное для заполнения"
+
+#: q2w3-table/objects/q2w3_include_obj.php:207
+msgid "Exclude pages"
+msgstr "Исключить страницы"
+
+#: q2w3-table/objects/q2w3_include_obj.php:211
+msgid ""
+"Pages where code CAN NOT be shown. Hold CTRL key for multiple select or "
+"deselect pages"
+msgstr ""
+"Страницы, которые требуется исключить из списка страниц для вставки кода"
+
+#: q2w3-table/objects/q2w3_include_obj.php:217
+msgid "Hide from user"
+msgstr "Спрятать от"
+
+#: q2w3-table/objects/q2w3_include_obj.php:221
+msgid ""
+"Code will be hidden for all users with the selected roles. Visitor - is a "
+"virtual user role for all not registered visitors of your site. Use example: "
+"if you select Visitor role only, code will be shown only for registered "
+"users."
+msgstr ""
+"Для выбранных групп пользователей код показываться не будет. Посетитель - "
+"виртуальная группа, включающая всех пользователей не прошедших процедуру "
+"регистрации. Пример: выбрана только группа Посетитель - это означает, что "
+"код будет показан только зарегистрированным пользователям."
+
+#: q2w3-table/objects/q2w3_include_obj.php:227
+msgid "Align"
+msgstr "Выравнивание"
+
+#: q2w3-table/objects/q2w3_include_obj.php:230
+msgid "Align Not Set"
+msgstr "Без выравнивания"
+
+#: q2w3-table/objects/q2w3_include_obj.php:230
+msgid "Align Left"
+msgstr "По левому краю"
+
+#: q2w3-table/objects/q2w3_include_obj.php:230
+msgid "Align Center"
+msgstr "По центру"
+
+#: q2w3-table/objects/q2w3_include_obj.php:230
+msgid "Align Right"
+msgstr "По правому краю"
+
+#: q2w3-table/objects/q2w3_include_obj.php:237
+msgid "Include code"
+msgstr "Код"
+
+#: q2w3-table/objects/q2w3_include_obj.php:241
+msgid ""
+"Included code. Required field. Any type of HTML, CSS, JAVASCRIPT and PHP "
+"code. PHP code must begins with php open tag. Align option allows you to "
+"wrap code in a div with selected text-align css propertie. Useful for "
+"aligning Google AdSense blocks and so on"
+msgstr ""
+"Поле обязательное для заполнения. Любые комбинации HTML, CSS, JAVASCRIPT и "
+"PHP кода. PHP код должен начинатся с открывающего тега (< ?php). Если "
+"установлена опция выравнивания, код помещается внутрь div с css атрибутом "
+"text-align равным выбранному значению"
+
+#: q2w3-table/objects/q2w3_include_obj.php:256
+msgid "You must input Description field!"
+msgstr "Необходимо заполнить поле Наименование!"
+
+#: q2w3-table/objects/q2w3_include_obj.php:262
+msgid "Priority number must be integer!"
+msgstr "В поле Приоритет можно вводить только целые числа!"
+
+#: q2w3-table/objects/q2w3_include_obj.php:268
+msgid "You must select at least one page where to place included code!"
+msgstr "Выберите хотя бы одну страницу для вставки кода!"
+
+#: q2w3-table/objects/q2w3_include_obj.php:274
+msgid "You must enter included code!"
+msgstr "Необходимо заполнить поле Код!"
+
+#: q2w3-table/objects/q2w3_include_obj.php:294
+msgid "Front page"
+msgstr "Главная страница"
+
+#: q2w3-table/objects/q2w3_include_obj.php:295
+msgid "All Post Types pages"
+msgstr "Страницы записей всех типов"
+
+#: q2w3-table/objects/q2w3_include_obj.php:296
+msgid "Taxonomies pages"
+msgstr "Страницы таксономий"
+
+#: q2w3-table/objects/q2w3_include_obj.php:297
+msgid "Post Type Archive pages"
+msgstr "Архивные страницы типов постов"
+
+#: q2w3-table/objects/q2w3_include_obj.php:298
+msgid "Date pages"
+msgstr "Страницы календаря"
+
+#: q2w3-table/objects/q2w3_include_obj.php:299
+msgid "Author pages"
+msgstr "Страницы авторов"
+
+#: q2w3-table/objects/q2w3_include_obj.php:300
+msgid "Attachment pages"
+msgstr "Страницы прикрепленных файлов"
+
+#: q2w3-table/objects/q2w3_include_obj.php:301
+msgid "Paged pages"
+msgstr "Подстраницы"
+
+#: q2w3-table/objects/q2w3_include_obj.php:302
+msgid "Search page"
+msgstr "Страница поиска"
+
+#: q2w3-table/objects/q2w3_include_obj.php:303
+msgid "Preview page"
+msgstr "Страница предпросмотра"
+
+#: q2w3-table/objects/q2w3_include_obj.php:304
+msgid "Page 404"
+msgstr "Страница 404"
+
+#: q2w3-table/objects/q2w3_include_obj.php:322
+msgid "Status changed"
+msgstr "Статус изменен"
+
+#: q2w3-table/objects/q2w3_include_obj.php:342
+msgid "Copy to clipboard"
+msgstr "Копировать в буфер"
+
+#: q2w3-table/q2w3_table.php:167
+msgid "Rows per page:"
+msgstr "Записей на страницу:"
+
+#: q2w3-table/q2w3_table.php:281
+msgid "Bulk Actions"
+msgstr "Действия"
+
+#: q2w3-table/q2w3_table.php:591
+msgid "No data"
+msgstr "Нет данных"
+
+#: q2w3-table/q2w3_table.php:733
+msgid "Delete selected?"
+msgstr "Удалить вабранное?"
+
+#: q2w3-table/q2w3_table.php:757
+msgid "Delete?"
+msgstr "Удалить?"
+
+#: q2w3-table/q2w3_table_func.php:323
+msgid "Visitor"
+msgstr "Посетитель"
+
+#: q2w3_inc_manager_widget.php:60
+msgid "Q2W3 Insert Manager Widget"
+msgstr "Q2W3 Insert Manager Widget"
+
+#~ msgid "Need help? Visit"
+#~ msgstr "Нужна помощь? Посетите"
+
+#~ msgid "Plugin Homepage"
+#~ msgstr "домашнюю страницу плагина"
+
+#~ msgid ""
+#~ "Enable shortcodes in comments. This option affects not all shortcodes, "
+#~ "only [include] shortcode used by Code Insert Manager"
+#~ msgstr ""
+#~ "Включить использование шорткодов в комментариях. Опция влияет только на "
+#~ "шорткод [include], используемый этим плагином."
+
+#~ msgid "Deactivation"
+#~ msgstr "Деактивация"
+
+#~ msgid "Deactivate plugin"
+#~ msgstr "Деактивировать плагин"
+
+#~ msgid "Deactivate plugin and delete all settings from database"
+#~ msgstr "Деактивировать плагин и очистить базу данных"
+
+#, fuzzy
+#~ msgid "PT Archive"
+#~ msgstr "Включен"
+
+#~ msgid "Inserts list"
+#~ msgstr "Список вставок"
+
+#~ msgid "deactivate options"
+#~ msgstr "деактивация"
+
+#~ msgid "Plugin deactivated!"
+#~ msgstr "Плагин деактивирован!"
+
+#~ msgid "Plugin deactivated, database entries deleted!"
+#~ msgstr "Плагин деактивирован, база данных очищена!"
+
+#~ msgid "Create New"
+#~ msgstr "Новая вставка"
+
+#~ msgid "Categories"
+#~ msgstr "Рубрики"
+
+#~ msgid "Tags"
+#~ msgstr "Метки"
+
+#~ msgid "Posts"
+#~ msgstr "Записи"
+
+#~ msgid "Include on"
+#~ msgstr "Вставить на страницы"
+
+#~ msgid "WP pages"
+#~ msgstr "Статические страницы"
+
+#~ msgid "Category pages"
+#~ msgstr "Страницы рубрик"
+
+#~ msgid ""
+#~ "Option to hide code form logged in admin. Useful to exclude admin visits "
+#~ "from Google Analitics reports and so on"
+#~ msgstr ""
+#~ "Позволяет спрятать код от вошедшего в систему администратора. Опция "
+#~ "полезна для  исключения визитов администраторов из статистики Гугла или "
+#~ "Яндекса "
+
+#~ msgid ""
+#~ "Included code. Any type of HTML, CSS or JAVASCRIPT code. PHP code not "
+#~ "supported. Required field"
+#~ msgstr ""
+#~ "Любые комбинации HTML, CSS или JAVASCRIPT кода. PHP код не "
+#~ "поддерживается. Поле обязательное для заполнения "
