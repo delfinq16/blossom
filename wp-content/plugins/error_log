@@ -1,0 +1,4 @@
+[24-Apr-2016 19:39:11 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/blossomc/public_html/wp-content/plugins/hello.php on line 60
+[10-Jan-2017 07:06:53 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/blossomc/public_html/wp-content/plugins/hello.php on line 60
+[01-Feb-2017 13:08:53 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/blossomc/public_html/wp-content/plugins/hello.php on line 60
+[19-Feb-2017 09:50:47 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/blossomc/public_html/wp-content/plugins/hello.php on line 60
