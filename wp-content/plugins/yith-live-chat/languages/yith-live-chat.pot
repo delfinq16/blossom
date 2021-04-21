@@ -1,0 +1,837 @@
+# Copyright (C) 2020 YITH
+# This file is distributed under the same license as the YITH Live Chat package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Live Chat 1.4.3\n"
+"Report-Msgid-Bugs-To: Your Inspiration Themes <plugins@yithemes.com>\n"
+"POT-Creation-Date: 2020-03-10 11:29:35+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Your Inspiration Themes <info@yithemes.com>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: class.yith-livechat.php:383 class.yith-livechat.php:394
+msgid "General"
+msgstr ""
+
+#: class.yith-livechat.php:384
+msgid "Display"
+msgstr ""
+
+#: class.yith-livechat.php:385 class.yith-livechat.php:395
+msgid "Messages"
+msgstr ""
+
+#: class.yith-livechat.php:386
+msgid "Offline Messages"
+msgstr ""
+
+#: class.yith-livechat.php:387
+msgid "Conversation"
+msgstr ""
+
+#: class.yith-livechat.php:388
+msgid "Appearance"
+msgstr ""
+
+#: class.yith-livechat.php:389
+msgid "Users"
+msgstr ""
+
+#: class.yith-livechat.php:390
+msgid "Privacy"
+msgstr ""
+
+#: class.yith-livechat.php:396
+msgid "Premium Version"
+msgstr ""
+
+#: class.yith-livechat.php:404
+msgid "Live Chat"
+msgstr ""
+
+#: class.yith-livechat.php:458
+msgid "Please complete Firebase setup for %s. %sClick here%s know how to do."
+msgstr ""
+
+#: class.yith-livechat.php:479
+msgid ""
+"We have updated %s for %s. The plugin will still work with the old "
+"configuration until the old API will not be removed. %sClick here%s to know "
+"about how to update."
+msgstr ""
+
+#: class.yith-livechat.php:491
+msgid ""
+"The Firebase Private Key is not valid. %sClick here%s to know how to get "
+"the correct one."
+msgstr ""
+
+#: class.yith-livechat.php:544
+msgid "YITH Live Chat Operator"
+msgstr ""
+
+#: includes/admin/class-ylc-custom-fields.php:65
+msgid "Upload"
+msgstr ""
+
+#: includes/admin/class-ylc-custom-fields.php:163
+msgid "Choose pages&hellip;"
+msgstr ""
+
+#: includes/admin/class-ylc-custom-fields.php:163
+msgid "Pages"
+msgstr ""
+
+#: includes/admin/class-ylc-custom-fields.php:173
+msgid "Select all"
+msgstr ""
+
+#: includes/admin/class-ylc-custom-fields.php:174
+msgid "Select none"
+msgstr ""
+
+#: includes/functions-ylc-ajax.php:54
+msgid "Successfully closed!"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:256
+msgid "Chat with us"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:257
+msgid "Have you got question? Write to us!"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:258
+msgid "Questions, doubts, issues? We're here to help you!"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:259
+msgid "This chat session has ended"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:260
+msgid "None of our operators are available at the moment. Please, try again later."
+msgstr ""
+
+#: includes/functions-ylc-commons.php:261
+msgid "Our operators are busy. Please try again later"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:341
+msgid "No messages found"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:342
+#: includes/functions-ylc-commons.php:371
+#: templates/chat-frontend/chat-container.php:57
+msgid "Connecting"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:343
+#: includes/functions-ylc-commons.php:372
+msgid "%s is writing"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:344
+#: templates/chat-backend/chat-console.php:14
+#: templates/chat-backend/chat-console.php:24
+msgid "Please wait"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:345
+msgid "Connection error!"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:346
+msgid "Online"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:347
+msgid "Offline"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:348
+msgid "Connect"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:349
+msgid "Disconnect"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:350
+msgid "You are offline"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:351
+msgid ""
+"If you leave the chat, you will be logged out. However you will be able to "
+"save the conversations into your server when you will come back in the "
+"console!"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:352
+msgid "New Message"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:353
+msgid "New User Online"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:354
+msgid "Saving"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:355
+msgid "User queue: %d"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:355
+msgid "There are people waiting to talk"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:356
+msgid "Talking with %s"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:357
+msgid "%s shop"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:358
+msgid "Apply Macro"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:359
+msgid "No results match"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:360
+msgid "Visitor"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:361
+msgid "Operator"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:362
+msgid "Registered User"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:363
+msgid "No users connected"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:369
+msgid "The user has closed the conversation"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:370
+msgid "No operators online"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:373
+msgid "Sending"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:374
+msgid "Please fill out all required fields"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:375
+msgid "Username is invalid"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:376
+msgid "Email is invalid"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:377
+msgid "A user is already logged in with the same email address"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:384
+msgid "January"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:385
+msgid "February"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:386
+msgid "March"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:387
+msgid "April"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:388
+#: includes/functions-ylc-commons.php:402
+msgid "May"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:389
+msgid "June"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:390
+msgid "July"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:391
+msgid "August"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:392
+msgid "September"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:393
+msgid "October"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:394
+msgid "November"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:395
+msgid "December"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:398
+msgid "Jan"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:399
+msgid "Feb"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:400
+msgid "Mar"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:401
+msgid "Apr"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:403
+msgid "Jun"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:404
+msgid "Jul"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:405
+msgid "Aug"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:406
+msgid "Sep"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:407
+msgid "Oct"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:408
+msgid "Nov"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:409
+msgid "Dec"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:412
+msgid "ago"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:413
+msgid "less than a minute"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:414
+msgid "about a minute"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:415
+msgid "%d minutes"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:416
+msgid "about an hour"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:417
+msgid "about %d hours"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:418
+msgid "a day"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:419
+msgid "%d days"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:420
+msgid "about a month"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:421
+msgid "%d months"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:422
+msgid "about a year"
+msgstr ""
+
+#: includes/functions-ylc-commons.php:423
+msgid "%d years"
+msgstr ""
+
+#: init.php:25
+msgid ""
+"You can't activate the free version of YITH Live Chat while you are using "
+"the premium one."
+msgstr ""
+
+#: plugin-options/general-options.php:20
+msgid "Firebase App Secret"
+msgstr ""
+
+#: plugin-options/general-options.php:37
+msgid "General Settings"
+msgstr ""
+
+#: plugin-options/general-options.php:49
+msgid "Enable Live Chat"
+msgstr ""
+
+#: plugin-options/general-options.php:50
+msgid "Activate/Deactivate the live chat features. "
+msgstr ""
+
+#: plugin-options/general-options.php:56
+msgid "Firebase Project ID"
+msgstr ""
+
+#: plugin-options/general-options.php:57
+msgid ""
+"ID of your Firebase project. If you don't have one, get a free Firebase "
+"application here: "
+msgstr ""
+
+#: plugin-options/general-options.php:69
+msgid "Firebase API Key"
+msgstr ""
+
+#: plugin-options/general-options.php:70
+msgid "Paste here the API Key of your Firebase application"
+msgstr ""
+
+#: plugin-options/general-options.php:80
+msgid "Firebase Private Key"
+msgstr ""
+
+#: plugin-options/general-options.php:81
+msgid "Paste here the Private Key of your Firebase application"
+msgstr ""
+
+#: plugin-options/general-options.php:91
+msgid "Firebase Database Rules"
+msgstr ""
+
+#: plugin-options/general-options.php:92
+msgid "Copy and paste in the Rules of your Firebase application"
+msgstr ""
+
+#: plugin-options/texts-options.php:21
+msgid "Message Settings"
+msgstr ""
+
+#: plugin-options/texts-options.php:33
+msgid "Chat Title"
+msgstr ""
+
+#: plugin-options/texts-options.php:34
+msgid "This text will appear in the chat button and the chat title"
+msgstr ""
+
+#: plugin-options/texts-options.php:44
+msgid "Welcome Message"
+msgstr ""
+
+#: plugin-options/texts-options.php:45
+msgid "This text will appear in the login form"
+msgstr ""
+
+#: plugin-options/texts-options.php:55
+msgid "Starting Chat Message"
+msgstr ""
+
+#: plugin-options/texts-options.php:56
+msgid "This text will appear when the chat starts"
+msgstr ""
+
+#: plugin-options/texts-options.php:66
+msgid "Closing Chat Message"
+msgstr ""
+
+#: plugin-options/texts-options.php:67
+msgid "This text will appear at the end of the chat"
+msgstr ""
+
+#: plugin-options/texts-options.php:77
+msgid "Offline Message"
+msgstr ""
+
+#: plugin-options/texts-options.php:78
+msgid "This text will appear if no operator is online"
+msgstr ""
+
+#: plugin-options/texts-options.php:88
+msgid "Busy Message"
+msgstr ""
+
+#: plugin-options/texts-options.php:89
+msgid "This text will appear if all operators are busy"
+msgstr ""
+
+#: templates/admin/premium.php:202 templates/admin/premium.php:441
+msgid ""
+"Upgrade to %1$spremium version%2$s of %1$sYITH Live Chat%2$s to benefit "
+"from all features!"
+msgstr ""
+
+#: templates/admin/premium.php:205 templates/admin/premium.php:444
+msgid "UPGRADE"
+msgstr ""
+
+#: templates/admin/premium.php:206 templates/admin/premium.php:445
+msgid "to the premium version"
+msgstr ""
+
+#: templates/admin/premium.php:220
+msgid "CHAT LOGS"
+msgstr ""
+
+#: templates/admin/premium.php:223
+msgid ""
+"Just a click on %1$s\"Save Chat\"%2$s button and your chat will be saved "
+"into your \"Chat logs\". In this section you can find all conversations and "
+"also summary information about them, from IP address associated to the "
+"date, to the appreciation degree expressed by the user, to the chat "
+"duration."
+msgstr ""
+
+#: templates/admin/premium.php:233
+msgid "OFFLINE MESSAGES"
+msgstr ""
+
+#: templates/admin/premium.php:236
+msgid ""
+"Put your instant chat service is not active 24 hours a day, but you would "
+"like your users to be able to contact you anyway, even though the chat "
+"console is \"closed2. You can: %1$saccess section \"offline  messages\" to "
+"read all messages sent to you%2$s, set an email address to which offline "
+"messages are sent and customise content of the replying email sent to users."
+msgstr ""
+
+#: templates/admin/premium.php:253
+msgid "OFFLINE MESSAGES WHEN ALL OPERATORS ARE BUSY"
+msgstr ""
+
+#: templates/admin/premium.php:256
+msgid ""
+"Because of the maximum number of allowed conversations, set from the plugin "
+"option panel, it may be possible that users can't start a conversation "
+"because all operators are busy. Give them the freedom to send you an "
+"%1$soffline message%2$s in any case, activating the related option from the "
+"Offline Messages section."
+msgstr ""
+
+#: templates/admin/premium.php:266
+msgid "MAXIMUM NUMBER OF SIMULTANEOUS CONVERSATIONS"
+msgstr ""
+
+#: templates/admin/premium.php:269
+msgid ""
+"Do not limit your conversations to two at the same time only. The premium "
+"version of the plugin gives you the possibility to choose the %1$smaximum "
+"number of users holding a chat conversation at the same time%2$s, so that "
+"you decide how much care you want to devote to each of the users contacting "
+"you."
+msgstr ""
+
+#: templates/admin/premium.php:285
+msgid "CONVERSATION COPY"
+msgstr ""
+
+#: templates/admin/premium.php:288
+msgid ""
+" At the end of the chat session, logged users in your site can ask for a "
+"%1$scopy of the chat conversation%2$s. Customise the content of the email "
+"in which the chat copy is sent and set possible email addresses to which "
+"this has to be forwarded in case you wanted, for instance, to supervise "
+"your operators’ behaviour."
+msgstr ""
+
+#: templates/admin/premium.php:298
+msgid "CHAT EVALUATION"
+msgstr ""
+
+#: templates/admin/premium.php:301
+msgid ""
+"Make your users able to tell you if the chat and support services have "
+"satisfied them or not, once chat conversation has been closed. They will be "
+"able to send their %1$sfeedback%2$s with a simple click and give you, as "
+"admin, the possibility to monitor chat operators’ behaviour."
+msgstr ""
+
+#: templates/admin/premium.php:317
+msgid "CUSTOM INTERFACE"
+msgstr ""
+
+#: templates/admin/premium.php:320
+msgid ""
+"Make the colours of your chat console as fitted as possible to those of "
+"your theme, so that such an external service can be perfectly integrated "
+"with all that surrounds it. You'll find an %1$soption panel%2$s available "
+"for you to edit login form and chat window, size and position."
+msgstr ""
+
+#: templates/admin/premium.php:330
+msgid "CONVERSATION DURATION"
+msgstr ""
+
+#: templates/admin/premium.php:333
+msgid ""
+"The premium version of the plugin allows you to monitor the duration of "
+"each chat conversation in real time and to recover total duration also in "
+"saved chats."
+msgstr ""
+
+#: templates/admin/premium.php:349
+msgid "MOBILE READY"
+msgstr ""
+
+#: templates/admin/premium.php:352
+msgid ""
+"In an era in which web navigation is not limited to desktop surfing only, "
+"it is important that your site and all services in it are accessible from "
+"%1$sany device%2$s. YITH Live Chat Premium has been created to fit this "
+"need, so that anyone can use your chat, regardless of the device they are "
+"using."
+msgstr ""
+
+#: templates/admin/premium.php:362
+msgid "CUSTOM AGENT PROFILE"
+msgstr ""
+
+#: templates/admin/premium.php:365
+msgid ""
+"Customise the profile of the Live Chat operator. Set priviledges that the "
+"chat operator user has once logged into the site and customise the default "
+"avatar."
+msgstr ""
+
+#: templates/admin/premium.php:381
+msgid "COMPATIBILITY WITH MULTI VENDOR"
+msgstr ""
+
+#: templates/admin/premium.php:384
+msgid ""
+"All features of %1$sYITH Live Chat%2$s and %1$sYITH WooCommerce Multi "
+"Vendor%2$s in one fell swoop, in order to activate the chat in the page of "
+"every vendor of the shop. In this way, your users will be free to contact "
+"immediately the vendors of the site to solve their doubts."
+msgstr ""
+
+#: templates/admin/premium.php:394
+msgid "CHAT AVAILABLE ONLY WHEN OPERATORS ARE ONLINE"
+msgstr ""
+
+#: templates/admin/premium.php:397
+msgid ""
+"A chat available to users only when operators are ready to answer. "
+"Otherwise, the %1$scontact form%2$s to send messages will be removed from "
+"the page, and users won't be able to send any request."
+msgstr ""
+
+#: templates/admin/premium.php:413
+msgid "Macros"
+msgstr ""
+
+#: templates/admin/premium.php:416
+msgid ""
+"Thanks to the pre-set macros, you will be able to %1$shighly reduce answer "
+"time%2$s for those questions that other users have already posed.%3$sSelect "
+"the most appropriate macro and the message field will be automatically "
+"filled in and ready to be sent to users. Simple, practical and quick!"
+msgstr ""
+
+#: templates/admin/premium.php:426
+msgid "Filter by page"
+msgstr ""
+
+#: templates/admin/premium.php:429
+msgid ""
+"If you think that adding the chat window on every page of your site is "
+"useless, you can well do without it and select only the pages on which you "
+"want to activate the chat service. This is the perfect solution in case you "
+"want to create a dedicated support page and let your users access it via "
+"chat and only from that page."
+msgstr ""
+
+#: templates/chat-backend/chat-console.php:36
+#: templates/chat-frontend/chat-container.php:50
+msgid "Type here and hit enter to chat"
+msgstr ""
+
+#: templates/chat-backend/chat-console.php:50
+#: templates/chat-frontend/chat-container.php:44
+msgid "End chat"
+msgstr ""
+
+#: templates/chat-backend/chat-console.php:56
+msgid "User Name"
+msgstr ""
+
+#: templates/chat-backend/chat-console.php:60
+msgid "IP Address"
+msgstr ""
+
+#: templates/chat-backend/chat-console.php:64
+msgid "User Email"
+msgstr ""
+
+#: templates/chat-backend/chat-console.php:68
+msgid "Current Page"
+msgstr ""
+
+#: templates/chat-backend/chat-console.php:79
+msgid "Firebase offline or not available. Please wait..."
+msgstr ""
+
+#: templates/chat-frontend/chat-container.php:81
+msgid "Your Name"
+msgstr ""
+
+#: templates/chat-frontend/chat-container.php:84
+msgid "Please enter your name"
+msgstr ""
+
+#: templates/chat-frontend/chat-container.php:88
+msgid "Your Email"
+msgstr ""
+
+#: templates/chat-frontend/chat-container.php:91
+msgid "Please enter your email"
+msgstr ""
+
+#: templates/chat-frontend/chat-container.php:123
+msgid "Start Chat"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"<code><strong>YITH Live Chat</strong></code>is the plugin that allows you "
+"to chat with your customers! <a href=\"https://yithemes.com/\" "
+"target=\"_blank\">Get more plugins for your e-commerce shop on "
+"<strong>YITH</strong></a>"
+msgstr ""
+
+#: includes/class-ylc-privacy.php:18
+msgctxt "Privacy Policy Content"
+msgid "YITH WooCommerce Live Chat"
+msgstr ""
+
+#: includes/class-ylc-privacy.php:32 includes/class-ylc-privacy.php:64
+msgctxt "Privacy Policy Content"
+msgid ""
+"Note: the plugin uses Firebase Realtime Database to which a DPO has to be "
+"assigned."
+msgstr ""
+
+#: includes/class-ylc-privacy.php:33 includes/class-ylc-privacy.php:65
+msgctxt "Privacy Policy Content"
+msgid ""
+"Through the chat popup available on the website pages, users can get in "
+"touch with an operator or send an offline message."
+msgstr ""
+
+#: includes/class-ylc-privacy.php:34 includes/class-ylc-privacy.php:66
+msgctxt "Privacy Policy Content"
+msgid ""
+"Whenever a chat conversation is started, the following data will be stored: "
+"username, email address and client IP address. They will be temporarily "
+"stored on Firebase (please, refer to %1$sFirebase Privacy Policy%2$s for "
+"more details)."
+msgstr ""
+
+#: includes/class-ylc-privacy.php:35
+msgctxt "Privacy Policy Content"
+msgid ""
+"When the chat session ends, the user will be asked to evaluate the support "
+"received. After that, their data will be removed from Firebase and will be "
+"stored on the local database for verification or other purposes related to "
+"the support given via chat."
+msgstr ""
+
+#: includes/class-ylc-privacy.php:37
+msgctxt "Privacy Policy Content"
+msgid ""
+"Whenever an offline message is sent through the dedicated offline form, the "
+"following data will be stored: username, email address, message sent, "
+"operating system, web browser, browser version, customer IP address, site "
+"page from which the message is sent and customer consent to the Privacy "
+"Policy."
+msgstr ""
+
+#: includes/class-ylc-privacy.php:38
+msgctxt "Privacy Policy Content"
+msgid ""
+"These data will be stored in the local database and will be used for "
+"support purposes or pre-sales support questions."
+msgstr ""
+
+#: includes/class-ylc-privacy.php:48
+msgctxt "Privacy Policy Content"
+msgid ""
+"Members of our team have access to the information you provide us. For "
+"example, both Administrators and Chat Operators can access:"
+msgstr ""
+
+#: includes/class-ylc-privacy.php:49
+msgctxt "Privacy Policy Content"
+msgid "the list of offline messages"
+msgstr ""
+
+#: includes/class-ylc-privacy.php:50
+msgctxt "Privacy Policy Content"
+msgid "the list of chat logs"
+msgstr ""
+
+#: includes/class-ylc-privacy.php:67
+msgctxt "Privacy Policy Content"
+msgid ""
+"When the chat session ends all will be removed from Firebase and will not "
+"be stored anywhere."
+msgstr ""
