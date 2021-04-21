@@ -1,0 +1,7 @@
+2021-04-04T00:00:11+00:00 DEBUG action_woocommerce_checkout_create_order => {"$this->capture":true}
+2021-04-04T00:00:11+00:00 DEBUG extra_data => {"$openpay_cc":"new","$save_cc":false,"$capture":true,"$charge_type":"direct"}
+2021-04-04T00:00:11+00:00 INFO processOpenpayCharge Order => 10246
+2021-04-04T00:00:18+00:00 INFO openpay_woocommerce_order_status_change_custom
+2021-04-04T00:00:18+00:00 INFO $old_status: pending
+2021-04-04T00:00:18+00:00 INFO $new_status: processing
+2021-04-04T00:00:18+00:00 INFO $capture: true

@@ -1,0 +1,7 @@
+
+11-06-2020 17:47:03.1591897623.6117 [187.192.200.243][5ee26e][info] Plugin starts activation [START].
+																	-Plugin Version in DB: 0
+																	-Current Plugin Version: 7.0.3
+11-06-2020 18:00:12.1591898412.3476 [187.192.200.243][5ee270][warning] Scanner start action: Started
+11-06-2020 18:23:50.1591899830.1945 [187.192.200.243][5ee276][info] Plugin starts deactivate [START].
+11-06-2020 18:23:50.1591899830.1946 [187.192.200.243][5ee276][info] Plugin has been deactivated [END]!

@@ -1,0 +1,29 @@
+2021-03-30T18:10:20+00:00 CRITICAL Uncaught Error: Call to undefined function woodmart_elementor_products_tab_template() in /var/www/wordpress/wp-content/themes/woodmart/inc/integrations/woocommerce/functions.php:50
+Stack trace:
+#0 /var/www/wordpress/wp-includes/class-wp-hook.php(292): woodmart_get_products_tab_ajax('')
+#1 /var/www/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /var/www/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /var/www/wordpress/wp-admin/admin-ajax.php(187): do_action('wp_ajax_woodmar...')
+#4 {main}
+  thrown en /var/www/wordpress/wp-content/themes/woodmart/inc/integrations/woocommerce/functions.php en la línea 50
+
+2021-03-30T18:10:31+00:00 CRITICAL Uncaught Error: Call to undefined function woodmart_elementor_products_tab_template() in /var/www/wordpress/wp-content/themes/woodmart/inc/integrations/woocommerce/functions.php:50
+Stack trace:
+#0 /var/www/wordpress/wp-includes/class-wp-hook.php(292): woodmart_get_products_tab_ajax('')
+#1 /var/www/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /var/www/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /var/www/wordpress/wp-admin/admin-ajax.php(187): do_action('wp_ajax_woodmar...')
+#4 {main}
+  thrown en /var/www/wordpress/wp-content/themes/woodmart/inc/integrations/woocommerce/functions.php en la línea 50
+
+2021-03-30T22:36:52+00:00 CRITICAL Uncaught Error: Call to undefined method PostmanOptions::getMailgunApiKey() in /var/www/wordpress/wp-content/plugins/wp-mail-smtp-pro/src/Helpers/PluginImportDataRetriever.php:140
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/wp-mail-smtp-pro/src/Helpers/PluginImportDataRetriever.php(45): WPMailSMTP\Helpers\PluginImportDataRetriever->get_post_smtp_mailer()
+#1 /var/www/wordpress/wp-content/plugins/wp-mail-smtp-pro/src/Admin/SetupWizard.php(555): WPMailSMTP\Helpers\PluginImportDataRetriever->get()
+#2 /var/www/wordpress/wp-includes/class-wp-hook.php(292): WPMailSMTP\Admin\SetupWizard->import_settings('')
+#3 /var/www/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /var/www/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /var/www/wordpress/wp-admin/admin-ajax.php(187): do_action('wp_ajax_wp_mail...')
+#6 {main}
+  thrown en /var/www/wordpress/wp-content/plugins/wp-mail-smtp-pro/src/Helpers/PluginImportDataRetriever.php en la línea 140
+

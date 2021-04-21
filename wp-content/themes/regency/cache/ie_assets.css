@@ -1,0 +1,54 @@
+/* bootstrap-twitter - https://www.blossom.com.mx/wp-content/themes/regency/theme/assets/bootstrap/css/bootstrap.min.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/theme/assets/bootstrap/css/bootstrap.min.css);
+/* font-awesome - https://www.blossom.com.mx/wp-content/themes/regency/core/assets/css/font-awesome.min.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/core/assets/css/font-awesome.min.css);
+/* font-simple-line-icons - https://www.blossom.com.mx/wp-content/themes/regency/theme/assets/fonts/Simple-Line-Icons-Webfont/simple-line-icons.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/theme/assets/fonts/Simple-Line-Icons-Webfont/simple-line-icons.css);
+/* yit-faq - https://www.blossom.com.mx/wp-content/themes/regency/theme/plugins/yit-framework/modules/faq/assets/css/yit-faq.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/theme/plugins/yit-framework/modules/faq/assets/css/yit-faq.css);
+/* yit-feature-tab - https://www.blossom.com.mx/wp-content/themes/regency/theme/plugins/yit-framework/modules/feature-tabs/assets/css/featurestab.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/theme/plugins/yit-framework/modules/feature-tabs/assets/css/featurestab.css);
+/* slider-logo-shortcode - https://www.blossom.com.mx/wp-content/themes/regency/theme/plugins/yit-framework/modules/logos/assets/css/logos_slider.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/theme/plugins/yit-framework/modules/logos/assets/css/logos_slider.css);
+/* owl-slider - https://www.blossom.com.mx/wp-content/themes/regency/theme/assets/css/owl.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/theme/assets/css/owl.css);
+/* yit-testimonial - https://www.blossom.com.mx/wp-content/themes/regency/theme/plugins/yit-framework/modules/testimonial/assets/css/yit-testimonial.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/theme/plugins/yit-framework/modules/testimonial/assets/css/yit-testimonial.css);
+/* portfolio-small - https://www.blossom.com.mx/wp-content/themes/regency/theme/templates/portfolios/small/css/style.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/theme/templates/portfolios/small/css/style.css);
+/* idangerous-swiper - https://www.blossom.com.mx/wp-content/themes/regency/theme/templates/sliders/banners/css/idangerous.swiper.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/theme/templates/sliders/banners/css/idangerous.swiper.css);
+/* slider-banners - https://www.blossom.com.mx/wp-content/themes/regency/theme/templates/sliders/banners/css/slider.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/theme/templates/sliders/banners/css/slider.css);
+/* prettyPhoto - https://www.blossom.com.mx/wp-content/themes/regency/theme/templates/sliders/parallax/css/prettyPhoto.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/theme/templates/sliders/parallax/css/prettyPhoto.css);
+/* slider-flexslider - https://www.blossom.com.mx/wp-content/themes/regency/theme/templates/sliders/flexslider/css/flexslider.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/theme/templates/sliders/flexslider/css/flexslider.css);
+/* theme-stylesheet - https://www.blossom.com.mx/wp-content/themes/regency/style.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/style.css);
+/* yit-woocommerce - https://www.blossom.com.mx/wp-content/themes/regency/woocommerce/style.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/woocommerce/style.css);
+/* shortcodes - https://www.blossom.com.mx/wp-content/themes/regency/theme/assets/css/shortcodes.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/theme/assets/css/shortcodes.css);
+/* widgets-theme - https://www.blossom.com.mx/wp-content/themes/regency/theme/assets/css/widgets.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/theme/assets/css/widgets.css);
+/* blog-stylesheet - https://www.blossom.com.mx/wp-content/themes/regency/theme/assets/css/blog.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/theme/assets/css/blog.css);
+/* masterslider-style - https://www.blossom.com.mx/wp-content/themes/regency/theme/assets/lib/masterslider/style/masterslider.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/theme/assets/lib/masterslider/style/masterslider.css);
+/* comment-stylesheet - https://www.blossom.com.mx/wp-content/themes/regency/theme/assets/css/comment.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/theme/assets/css/comment.css);
+/* animate - https://www.blossom.com.mx/wp-content/themes/regency/theme/assets/css/animate.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/theme/assets/css/animate.css);
+/* questrial - //fonts.googleapis.com/css?family=Questrial%3Aregular%2C400%2C800%2C600%2C500%2C300 */
+@import url(//fonts.googleapis.com/css?family=Questrial%3Aregular%2C400%2C800%2C600%2C500%2C300);
+/* raleway - //fonts.googleapis.com/css?family=Raleway%3Aregular%2C100%2C500%2C600%2C400%2Cnormal */
+@import url(//fonts.googleapis.com/css?family=Raleway%3Aregular%2C100%2C500%2C600%2C400%2Cnormal);
+/* source-sans-pro - //fonts.googleapis.com/css?family=Source+Sans+Pro%3Aregular */
+@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro%3Aregular);
+/* cache-dynamics - https://www.blossom.com.mx/wp-content/themes/regency/cache/dynamics.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/cache/dynamics.css);
+/* responsive - https://www.blossom.com.mx/wp-content/themes/regency/theme/assets/css/responsive.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/theme/assets/css/responsive.css);
+/* custom - https://www.blossom.com.mx/wp-content/themes/regency/custom.css */
+@import url(https://www.blossom.com.mx/wp-content/themes/regency/custom.css);

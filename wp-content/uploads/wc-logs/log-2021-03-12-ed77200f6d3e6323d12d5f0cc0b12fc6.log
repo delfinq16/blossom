@@ -1,0 +1,8 @@
+2021-03-12T12:56:21+00:00 DEBUG action_woocommerce_checkout_create_order => {"$this->capture":true}
+2021-03-12T12:56:22+00:00 DEBUG extra_data => {"$openpay_cc":"new","$save_cc":false,"$capture":true}
+2021-03-12T12:56:22+00:00 INFO processOpenpayCharge Order => 9731
+2021-03-12T12:56:34+00:00 DEBUG https://sandbox-api.openpay.mx/v1/mxpy2az9jveeoyomkbiz/charges/tr1h89xamizdludyyb3h/redirect/
+2021-03-12T14:24:48+00:00 INFO openpay_woocommerce_order_status_change_custom
+2021-03-12T14:24:48+00:00 INFO $old_status: pending
+2021-03-12T14:24:48+00:00 INFO $new_status: cancelled
+2021-03-12T14:24:48+00:00 INFO $capture: true

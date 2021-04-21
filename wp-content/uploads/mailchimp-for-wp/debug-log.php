@@ -1,0 +1,37 @@
+<?php exit; ?>
+[2019-01-09 11:56:38] ERROR: Form 2787 > MailChimp API error: 400 Bad Request. Invalid Resource. itze*******@gm***.con looks fake or invalid, please enter a real email address.
+Request: PUT https://us19.api.mailchimp.com/3.0/lists/e3b8a0caad/members/dcc70579304ce2efa19779a9a0e6be90 - {"email_address":"itze*******@gm***.con","interests":{},"merge_fields":{"FNAME":"Rebeca"},"status":"pending","email_type":"html","ip_signup":"172.56.7.29"}
+Response: 400 Bad Request - {"type":"http://developer.mailchimp.com/documentation/mailchimp/guides/error-glossary/","title":"Invalid Resource","status":400,"detail":"itze*******@gm***.con looks fake or invalid, please enter a real email address.","instance":"1467c5e8-8eaf-4f9b-a93a-5dfcc4868084"}
+[2019-01-09 11:56:42] ERROR: Form 2787 > MailChimp API error: 400 Bad Request. Invalid Resource. itze*******@gm***.con looks fake or invalid, please enter a real email address.
+Request: PUT https://us19.api.mailchimp.com/3.0/lists/e3b8a0caad/members/dcc70579304ce2efa19779a9a0e6be90 - {"email_address":"itze*******@gm***.con","interests":{},"merge_fields":{"FNAME":"Rebeca"},"status":"pending","email_type":"html","ip_signup":"172.56.7.29"}
+Response: 400 Bad Request - {"type":"http://developer.mailchimp.com/documentation/mailchimp/guides/error-glossary/","title":"Invalid Resource","status":400,"detail":"itze*******@gm***.con looks fake or invalid, please enter a real email address.","instance":"05a1658b-ca49-4893-92ec-b1e932f64ae5"}
+[2019-01-09 11:56:47] ERROR: Form 2787 > MailChimp API error: 400 Bad Request. Invalid Resource. itze*******@gm***.con looks fake or invalid, please enter a real email address.
+Request: PUT https://us19.api.mailchimp.com/3.0/lists/e3b8a0caad/members/dcc70579304ce2efa19779a9a0e6be90 - {"email_address":"itze*******@gm***.con","interests":{},"merge_fields":{"FNAME":"Rebeca"},"status":"pending","email_type":"html","ip_signup":"172.56.7.29"}
+Response: 400 Bad Request - {"type":"http://developer.mailchimp.com/documentation/mailchimp/guides/error-glossary/","title":"Invalid Resource","status":400,"detail":"itze*******@gm***.con looks fake or invalid, please enter a real email address.","instance":"9df181cc-a439-4cc7-8338-876ef9045355"}
+[2019-05-24 06:28:10] ERROR: Form 2787 > Mailchimp API error: 400 Bad Request. Invalid Resource. hame************@ko*******.com has signed up to a lot of lists very recently; we're not allowing more signups for now
+Request: PUT https://us19.api.mailchimp.com/3.0/lists/e3b8a0caad/members/3da9a9c6dfa0a5dce4781943bfcad55a - {"email_address":"hame************@ko*******.com","interests":{},"merge_fields":{"FNAME":"MalcolmTic"},"status":"pending","email_type":"html","ip_signup":"50.87.16.148","tags":[]}
+Response: 400 Bad Request - {"type":"http://developer.mailchimp.com/documentation/mailchimp/guides/error-glossary/","title":"Invalid Resource","status":400,"detail":"hame************@ko*******.com has signed up to a lot of lists very recently; we're not allowing more signups for now","instance":"b0a8e49c-8e85-4fe4-aa35-9a00964c5e9c"}
+[2019-08-09 09:36:58] ERROR: Form 2787 > Mailchimp API error: 405 Method Not Allowed. This list member cannot be removed.  Please contact support.
+Request: DELETE https://us19.api.mailchimp.com/3.0/lists/e3b8a0caad/members/7a49839f5f97505bbb7b8e50d4eb0569
+Response: 405 Method Not Allowed - {"type":"http://developer.mailchimp.com/documentation/mailchimp/guides/error-glossary/","title":"Method Not Allowed","status":405,"detail":"This list member cannot be removed.  Please contact support.","instance":"730958f1-6e58-4e04-9b7c-3ac057110ea2"}
+[2019-11-21 23:24:45] ERROR: Form 2787 > Mailchimp API error: 405 Method Not Allowed. This list member cannot be removed.  Please contact support.
+Request: DELETE https://us19.api.mailchimp.com/3.0/lists/e3b8a0caad/members/87cd8cd3b42c11624b7cc21947271283
+Response: 405 Method Not Allowed - {"type":"http://developer.mailchimp.com/documentation/mailchimp/guides/error-glossary/","title":"Method Not Allowed","status":405,"detail":"This list member cannot be removed.  Please contact support.","instance":"aa72f703-d69e-4279-8d61-1bcf090e3f5a"}
+[2019-11-21 23:24:46] ERROR: Form 2787 > Mailchimp API error: 405 Method Not Allowed. This list member cannot be removed.  Please contact support.
+Request: DELETE https://us19.api.mailchimp.com/3.0/lists/e3b8a0caad/members/87cd8cd3b42c11624b7cc21947271283
+Response: 405 Method Not Allowed - {"type":"http://developer.mailchimp.com/documentation/mailchimp/guides/error-glossary/","title":"Method Not Allowed","status":405,"detail":"This list member cannot be removed.  Please contact support.","instance":"b68faea7-2f48-482c-9f5a-e4354d13ed77"}
+[2019-11-21 23:24:49] ERROR: Form 2787 > Mailchimp API error: 405 Method Not Allowed. This list member cannot be removed.  Please contact support.
+Request: DELETE https://us19.api.mailchimp.com/3.0/lists/e3b8a0caad/members/87cd8cd3b42c11624b7cc21947271283
+Response: 405 Method Not Allowed - {"type":"http://developer.mailchimp.com/documentation/mailchimp/guides/error-glossary/","title":"Method Not Allowed","status":405,"detail":"This list member cannot be removed.  Please contact support.","instance":"49cf57df-aa7e-46f4-a941-adbf3d8c3966"}
+[2019-11-21 23:24:50] ERROR: Form 2787 > Mailchimp API error: 405 Method Not Allowed. This list member cannot be removed.  Please contact support.
+Request: DELETE https://us19.api.mailchimp.com/3.0/lists/e3b8a0caad/members/87cd8cd3b42c11624b7cc21947271283
+Response: 405 Method Not Allowed - {"type":"http://developer.mailchimp.com/documentation/mailchimp/guides/error-glossary/","title":"Method Not Allowed","status":405,"detail":"This list member cannot be removed.  Please contact support.","instance":"c9d99e64-f8d7-4b5e-9925-f1846e8d7dfd"}
+[2019-12-03 09:45:12] ERROR: Form 2787 > Mailchimp API error: 405 Method Not Allowed. This list member cannot be removed.  Please contact support.
+Request: DELETE https://us19.api.mailchimp.com/3.0/lists/e3b8a0caad/members/bb6c77dfa0dde2dcefc2f23cdb2b24a9
+Response: 405 Method Not Allowed - {"type":"http://developer.mailchimp.com/documentation/mailchimp/guides/error-glossary/","title":"Method Not Allowed","status":405,"detail":"This list member cannot be removed.  Please contact support.","instance":"1ff01aef-af08-4a89-9226-ed486d3c1d2d"}
+[2019-12-03 09:45:49] ERROR: Form 2787 > Mailchimp API error: 405 Method Not Allowed. This list member cannot be removed.  Please contact support.
+Request: DELETE https://us19.api.mailchimp.com/3.0/lists/e3b8a0caad/members/bb6c77dfa0dde2dcefc2f23cdb2b24a9
+Response: 405 Method Not Allowed - {"type":"http://developer.mailchimp.com/documentation/mailchimp/guides/error-glossary/","title":"Method Not Allowed","status":405,"detail":"This list member cannot be removed.  Please contact support.","instance":"298c71f5-4e74-472b-9a24-294cfdb62fb2"}
+[2020-04-16 18:44:51] ERROR: Form 2787 > Mailchimp API error: 405 Method Not Allowed. This list member cannot be removed.  Please contact support.
+Request: DELETE https://us19.api.mailchimp.com/3.0/lists/e3b8a0caad/members/7466b84add641d9378026027e838c4bc
+Response: 405 Method Not Allowed - {"type":"http://developer.mailchimp.com/documentation/mailchimp/guides/error-glossary/","title":"Method Not Allowed","status":405,"detail":"This list member cannot be removed.  Please contact support.","instance":"e7b400a2-8bf8-42cf-b4d3-54d3d5993bd6"}

@@ -1,0 +1,4 @@
+2021-03-31T22:49:07+00:00 CRITICAL Out of memory (allocated 25165824) (tried to allocate 20480 bytes) en /var/www/wordpress/wp-includes/pomo/mo.php en la línea 323
+
+2021-03-31T22:49:07+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 20480 bytes) en /var/www/wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php en la línea 107
+

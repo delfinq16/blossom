@@ -1,0 +1,39 @@
+
+07-10-2020 20:02:41.1602100961.3492 [187.189.151.185][5f7e1e][info] Parent plugin start installation!
+07-10-2020 20:02:41.1602100961.3609 [187.189.151.185][5f7e1e][info] Premium plugin start installation!
+07-10-2020 20:02:41.1602100961.5079 [187.189.151.185][5f7e1e][info] Premium plugin installation complete!
+07-10-2020 20:02:41.1602100961.5105 [187.189.151.185][5f7e1e][info] Plugin installation: try create plugin tables.
+																	-DB Version: 0
+																	-Plugin Version in DB: 0
+																	-Current Plugin Version: 1.4.2
+07-10-2020 20:02:41.1602100961.5491 [187.189.151.185][5f7e1e][info] Parent plugin installation complete!
+07-10-2020 20:21:41.1602102101.4654 [187.189.151.185][5f7e23][info] Try to create backup directory. Backup dir: (/home2/urbante3/public_html/blossom/wp-content/uploads/wio_backup)
+07-10-2020 20:45:29.1602103529.3815 [187.189.151.185][5f7e28][info] Start bulk optimization process! Scope: media-library
+07-10-2020 20:45:30.1602103530.3385 [187.189.151.185][5f7e28][info] Try to create backup directory. Backup dir: (/home2/urbante3/public_html/blossom/wp-content/uploads/wio_backup/2014/10)
+07-10-2020 20:45:30.1602103530.3872 [187.189.151.185][5f7e28][info] Preparing to upload a file (/home2/urbante3/public_html/blossom/wp-content/uploads/2014/10/cinturauomo.jpg) to a remote server (server_1).
+07-10-2020 20:45:33.1602103533.3423 [187.189.151.185][5f7e28][info] File successfully uploaded to remote server (server_1).
+07-10-2020 20:45:35.1602103535.3422 [187.189.151.185][5f7e28][info] Preparing to upload a file (/home2/urbante3/public_html/blossom/wp-content/uploads/2014/10/cinturauomo-150x150.jpg) to a remote server (server_1).
+07-10-2020 20:45:35.1602103535.6776 [187.189.151.185][5f7e28][info] File successfully uploaded to remote server (server_1).
+07-10-2020 20:45:38.1602103538.354 [187.189.151.185][5f7e28][info] Preparing to upload a file (/home2/urbante3/public_html/blossom/wp-content/uploads/2014/10/cinturauomo-300x300.jpg) to a remote server (server_1).
+07-10-2020 20:45:38.1602103538.6874 [187.189.151.185][5f7e28][info] File successfully uploaded to remote server (server_1).
+07-10-2020 20:45:41.1602103541.3429 [187.189.151.185][5f7e28][debug] New queue created #1, attributes values: {"server_id":null,"object_id":"14","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":27592,"final_size":11690,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":26429,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1602103541}
+07-10-2020 20:45:41.1602103541.3933 [187.189.151.185][5f7e28][info] End bulk optimization process! Scope: media-library. Remain: 912
+07-10-2020 20:47:28.1602103648.3534 [187.189.151.185][5f7e29][info] Start bulk optimization process! Scope: media-library
+07-10-2020 20:47:55.1602103675.36 [187.189.151.185][5f7e29][info] Preparing to upload a file (/home2/urbante3/public_html/blossom/wp-content/uploads/2014/10/1.jpg) to a remote server (server_1).
+07-10-2020 20:47:56.1602103676.3402 [187.189.151.185][5f7e29][info] File successfully uploaded to remote server (server_1).
+07-10-2020 20:47:59.1602103679.3419 [187.189.151.185][5f7e29][info] Preparing to upload a file (/home2/urbante3/public_html/blossom/wp-content/uploads/2014/10/1-150x150.jpg) to a remote server (server_1).
+07-10-2020 20:48:01.1602103681.3487 [187.189.151.185][5f7e29][info] File successfully uploaded to remote server (server_1).
+07-10-2020 20:48:04.1602103684.341 [187.189.151.185][5f7e29][info] Preparing to upload a file (/home2/urbante3/public_html/blossom/wp-content/uploads/2014/10/1-300x134.jpg) to a remote server (server_1).
+07-10-2020 20:48:04.1602103684.3425 [187.189.151.185][5f7e29][error] Failed to get content of URL: http://api.resmush.it/ws.php as wp_remote_request() returned error (cURL error 6: getaddrinfo() thread failed to start
+).
+07-10-2020 20:48:04.1602103684.3522 [187.189.151.185][5f7e29][debug] New queue created #2, attributes values: {"server_id":null,"object_id":"16","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":30251,"final_size":6078,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":1,\"original_main_size\":29842,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1602103684}
+07-10-2020 20:48:07.1602103687.3456 [187.189.151.185][5f7e29][info] End bulk optimization process! Scope: media-library. Remain: 911
+07-10-2020 21:20:57.1602105657.4492 [187.189.151.185][5f7e30][info] Start bulk optimization process! Scope: media-library
+07-10-2020 21:21:04.1602105664.3869 [187.189.151.185][5f7e30][info] Preparing to upload a file (/home2/urbante3/public_html/blossom/wp-content/uploads/2014/10/2.jpg) to a remote server (server_1).
+07-10-2020 21:21:05.1602105665.5179 [187.189.151.185][5f7e30][info] File successfully uploaded to remote server (server_1).
+07-10-2020 21:21:06.1602105666.34 [187.189.151.185][5f7e30][info] Preparing to upload a file (/home2/urbante3/public_html/blossom/wp-content/uploads/2014/10/2-150x150.jpg) to a remote server (server_1).
+07-10-2020 21:21:06.1602105666.6544 [187.189.151.185][5f7e30][info] File successfully uploaded to remote server (server_1).
+07-10-2020 21:21:07.1602105667.6452 [187.189.151.185][5f7e30][info] Preparing to upload a file (/home2/urbante3/public_html/blossom/wp-content/uploads/2014/10/2-300x134.jpg) to a remote server (server_1).
+07-10-2020 21:21:08.1602105668.0134 [187.189.151.185][5f7e30][info] File successfully uploaded to remote server (server_1).
+07-10-2020 21:21:08.1602105668.853 [187.189.151.185][5f7e30][debug] New queue created #3, attributes values: {"server_id":null,"object_id":"17","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":30715,"final_size":6542,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":29842,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1602105668}
+07-10-2020 21:21:09.1602105669.367 [187.189.151.185][5f7e30][info] End bulk optimization process! Scope: media-library. Remain: 910

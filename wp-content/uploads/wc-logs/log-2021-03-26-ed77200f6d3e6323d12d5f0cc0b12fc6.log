@@ -1,0 +1,42 @@
+2021-03-26T16:53:23+00:00 DEBUG action_woocommerce_checkout_create_order => {"$this->capture":true}
+2021-03-26T16:53:24+00:00 DEBUG extra_data => {"$openpay_cc":"new","$save_cc":false,"$capture":true}
+2021-03-26T16:53:24+00:00 INFO processOpenpayCharge Order => 10046
+2021-03-26T16:54:00+00:00 INFO openpay_woocommerce_order_status_change_custom
+2021-03-26T16:54:00+00:00 INFO $old_status: pending
+2021-03-26T16:54:00+00:00 INFO $new_status: failed
+2021-03-26T16:54:00+00:00 INFO $capture: 
+2021-03-26T16:54:31+00:00 DEBUG action_woocommerce_checkout_create_order => {"$this->capture":true}
+2021-03-26T16:54:31+00:00 DEBUG extra_data => {"$openpay_cc":"new","$save_cc":false,"$capture":true}
+2021-03-26T16:54:31+00:00 INFO processOpenpayCharge Order => 10046
+2021-03-26T16:55:26+00:00 DEBUG action_woocommerce_checkout_create_order => {"$this->capture":true}
+2021-03-26T16:55:26+00:00 DEBUG extra_data => {"$openpay_cc":"new","$save_cc":false,"$capture":true}
+2021-03-26T16:55:26+00:00 INFO processOpenpayCharge Order => 10046
+2021-03-26T16:55:49+00:00 DEBUG action_woocommerce_checkout_create_order => {"$this->capture":true}
+2021-03-26T16:55:49+00:00 DEBUG extra_data => {"$openpay_cc":"new","$save_cc":false,"$capture":true}
+2021-03-26T16:55:49+00:00 INFO processOpenpayCharge Order => 10046
+2021-03-26T16:57:01+00:00 INFO openpay_woocommerce_order_status_change_custom
+2021-03-26T16:57:01+00:00 INFO $old_status: failed
+2021-03-26T16:57:01+00:00 INFO $new_status: processing
+2021-03-26T16:57:01+00:00 INFO $capture: true
+2021-03-26T16:58:51+00:00 DEBUG action_woocommerce_checkout_create_order => {"$this->capture":true}
+2021-03-26T10:59:24-06:00 INFO get_shipping_postcode: 75025
+2021-03-26T10:59:24-06:00 INFO _openpay_customer_id: 
+2021-03-26T10:59:24-06:00 INFO _pdf_url: https://sandbox-dashboard.openpay.mx/paynet-pdf/mxpy2az9jveeoyomkbiz/1010104136462718
+2021-03-26T10:59:24-06:00 INFO email_id: customer_on_hold_order
+2021-03-26T10:59:24-06:00 INFO order_id: 10050
+2021-03-26T10:59:24-06:00 INFO basedir: /var/www/wordpress/wp-content/uploads
+2021-03-26T10:59:54-06:00 INFO openpay_woocommerce_order_status_change_custom
+2021-03-26T10:59:54-06:00 INFO $old_status: pending
+2021-03-26T10:59:54-06:00 INFO $new_status: on-hold
+2021-03-26T10:59:54-06:00 INFO get_payment_method: openpay_stores
+2021-03-26T17:00:50+00:00 DEBUG action_woocommerce_checkout_create_order => {"$this->capture":true}
+2021-03-26T11:01:23-06:00 INFO get_shipping_postcode: 75025
+2021-03-26T11:01:23-06:00 INFO _openpay_customer_id: 
+2021-03-26T11:01:23-06:00 INFO _pdf_url: https://sandbox-dashboard.openpay.mx/spei-pdf/mxpy2az9jveeoyomkbiz/tru2us9lpr5yjrbfjnhq
+2021-03-26T11:01:23-06:00 INFO email_id: customer_on_hold_order
+2021-03-26T11:01:23-06:00 INFO order_id: 10053
+2021-03-26T11:01:23-06:00 INFO basedir: /var/www/wordpress/wp-content/uploads
+2021-03-26T11:01:54-06:00 INFO openpay_woocommerce_order_status_change_custom
+2021-03-26T11:01:54-06:00 INFO $old_status: pending
+2021-03-26T11:01:54-06:00 INFO $new_status: on-hold
+2021-03-26T11:01:54-06:00 INFO get_payment_method: openpay_spei

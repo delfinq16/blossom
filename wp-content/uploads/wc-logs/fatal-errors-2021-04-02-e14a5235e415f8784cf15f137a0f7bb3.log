@@ -1,0 +1,12 @@
+2021-04-02T02:54:20+00:00 CRITICAL Out of memory (allocated 41943040) (tried to allocate 266240 bytes) in /var/www/wordpress/wp-includes/pomo/streams.php on line 118
+
+2021-04-02T02:54:20+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 20480 bytes) en /var/www/wordpress/wp-includes/rest-api/class-wp-rest-server.php en la línea 869
+
+2021-04-02T02:54:20+00:00 CRITICAL Out of memory (allocated 6291456) (tried to allocate 65536 bytes) en /var/www/wordpress/wp-content/plugins/jetpack/json-endpoints.php en la línea 48
+
+2021-04-02T02:54:30+00:00 CRITICAL Out of memory (allocated 44040192) (tried to allocate 20480 bytes) en /var/www/wordpress/wp-includes/pomo/mo.php en la línea 323
+
+2021-04-02T02:54:30+00:00 CRITICAL Out of memory (allocated 44040192) (tried to allocate 20480 bytes) en /var/www/wordpress/wp-includes/pomo/mo.php en la línea 323
+
+2021-04-02T02:54:31+00:00 CRITICAL Out of memory (allocated 12582912) (tried to allocate 20480 bytes) en /var/www/wordpress/wp-includes/rest-api/class-wp-rest-server.php en la línea 873
+

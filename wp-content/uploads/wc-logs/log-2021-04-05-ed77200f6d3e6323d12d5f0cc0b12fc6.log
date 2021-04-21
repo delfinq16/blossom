@@ -1,0 +1,19 @@
+2021-04-05T16:13:17+00:00 INFO openpay_woocommerce_order_status_change_custom
+2021-04-05T16:13:17+00:00 INFO $old_status: processing
+2021-04-05T16:13:17+00:00 INFO $new_status: completed
+2021-04-05T16:13:17+00:00 INFO $capture: true
+2021-04-05T16:17:57+00:00 INFO openpay_woocommerce_order_status_change_custom
+2021-04-05T16:17:57+00:00 INFO $old_status: processing
+2021-04-05T16:17:57+00:00 INFO $new_status: completed
+2021-04-05T16:17:57+00:00 INFO $capture: true
+2021-04-05T16:48:52+00:00 DEBUG action_woocommerce_checkout_create_order => {"$this->capture":true}
+2021-04-05T11:48:54-05:00 INFO get_shipping_postcode: 44520
+2021-04-05T11:48:54-05:00 INFO _openpay_customer_id: 
+2021-04-05T11:48:54-05:00 INFO _pdf_url: https://dashboard.openpay.mx/paynet-pdf/mipchbqmzlde011v2aaa/1010103136233023
+2021-04-05T11:48:54-05:00 INFO email_id: customer_on_hold_order
+2021-04-05T11:48:54-05:00 INFO order_id: 10251
+2021-04-05T11:48:54-05:00 INFO basedir: /var/www/wordpress/wp-content/uploads
+2021-04-05T11:48:55-05:00 INFO openpay_woocommerce_order_status_change_custom
+2021-04-05T11:48:55-05:00 INFO $old_status: pending
+2021-04-05T11:48:55-05:00 INFO $new_status: on-hold
+2021-04-05T11:48:55-05:00 INFO get_payment_method: openpay_stores

@@ -1,0 +1,22 @@
+2021-04-06T12:46:08+00:00 CRITICAL Uncaught Error: Call to a member function get_is_vat_exempt() on null in /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:716
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(652): WC_Cart_Totals->calculate_item_subtotals()
+#1 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(177): WC_Cart->calculate_totals()
+#5 /var/www/wordpress/wp-includes/class-wp-hook.php(292): WC_Cart_Session->get_cart_from_session('')
+#6 /var/www/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www en /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php en la línea 716
+
+2021-04-06T12:46:08+00:00 CRITICAL Uncaught Error: Call to a member function get_is_vat_exempt() on null in /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:716
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(652): WC_Cart_Totals->calculate_item_subtotals()
+#1 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(177): WC_Cart->calculate_totals()
+#5 /var/www/wordpress/wp-includes/class-wp-hook.php(292): WC_Cart_Session->get_cart_from_session('')
+#6 /var/www/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www en /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php en la línea 716
+

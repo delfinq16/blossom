@@ -1,0 +1,88 @@
+[18-Dec-2018 03:26:48 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home2/urbante3/public_html/blossom/wp-content/themes/regency/header.php:19
+Stack trace:
+#0 {main}
+  thrown in /home2/urbante3/public_html/blossom/wp-content/themes/regency/header.php on line 19
+[18-Dec-2018 03:26:48 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function yit_get_option() in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php on line 10
+[31-Dec-2018 19:40:46 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home2/urbante3/public_html/blossom/wp-content/themes/regency/header.php:19
+Stack trace:
+#0 {main}
+  thrown in /home2/urbante3/public_html/blossom/wp-content/themes/regency/header.php on line 19
+[31-Dec-2018 19:40:46 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function yit_get_option() in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php on line 10
+[07-Feb-2019 21:25:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function yit_get_option() in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php on line 10
+[07-Feb-2019 21:25:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home2/urbante3/public_html/blossom/wp-content/themes/regency/header.php:19
+Stack trace:
+#0 {main}
+  thrown in /home2/urbante3/public_html/blossom/wp-content/themes/regency/header.php on line 19
+[22-Feb-2019 03:21:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home2/urbante3/public_html/blossom/wp-content/themes/regency/header.php:19
+Stack trace:
+#0 {main}
+  thrown in /home2/urbante3/public_html/blossom/wp-content/themes/regency/header.php on line 19
+[22-Feb-2019 03:21:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function yit_get_option() in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php on line 10
+[18-Nov-2019 00:51:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function yit_get_option() in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php on line 10
+[18-Nov-2019 06:13:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function yit_get_option() in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php on line 10
+[13-Dec-2019 06:35:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function yit_get_option() in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php on line 10
+[13-Dec-2019 18:57:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function yit_get_option() in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php on line 10
+[15-Dec-2019 06:56:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function yit_get_option() in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php on line 10
+[15-Dec-2019 20:07:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function yit_get_option() in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php on line 10
+[11-Jan-2020 21:39:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function yit_get_option() in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php on line 10
+[13-Jan-2020 21:21:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function yit_get_option() in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php on line 10
+[14-Jan-2020 21:22:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function yit_get_option() in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php on line 10
+[15-Jan-2020 22:51:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function yit_get_option() in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php on line 10
+[17-Apr-2020 05:48:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function yit_get_option() in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php on line 10
+[17-Apr-2020 16:05:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function yit_get_option() in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php on line 10
+[25-Apr-2020 01:04:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function yit_get_option() in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php on line 10
+[25-Apr-2020 11:17:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function yit_get_option() in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/urbante3/public_html/blossom/wp-content/themes/regency/404.php on line 10

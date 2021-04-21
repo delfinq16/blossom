@@ -1,0 +1,30 @@
+2021-03-30T13:45:21+00:00 INFO openpay_woocommerce_order_status_change_custom
+2021-03-30T13:45:21+00:00 INFO $old_status: on-hold
+2021-03-30T13:45:21+00:00 INFO $new_status: cancelled
+2021-03-30T13:45:21+00:00 INFO get_payment_method: openpay_spei
+2021-03-30T14:53:43+00:00 INFO openpay_woocommerce_order_status_change_custom
+2021-03-30T14:53:43+00:00 INFO $old_status: on-hold
+2021-03-30T14:53:43+00:00 INFO $new_status: cancelled
+2021-03-30T14:53:43+00:00 INFO get_payment_method: openpay_stores
+2021-03-30T22:12:14+00:00 DEBUG action_woocommerce_checkout_create_order => {"$this->capture":true}
+2021-03-30T16:13:16-06:00 INFO get_shipping_postcode: 06600
+2021-03-30T16:13:16-06:00 INFO _openpay_customer_id: 
+2021-03-30T16:13:16-06:00 INFO _pdf_url: https://sandbox-dashboard.openpay.mx/spei-pdf/mxpy2az9jveeoyomkbiz/trkvppsgjky9dj46oe1u
+2021-03-30T16:13:16-06:00 INFO email_id: customer_on_hold_order
+2021-03-30T16:13:16-06:00 INFO order_id: 10097
+2021-03-30T16:13:16-06:00 INFO basedir: /var/www/wordpress/wp-content/uploads
+2021-03-30T16:13:47-06:00 INFO openpay_woocommerce_order_status_change_custom
+2021-03-30T16:13:47-06:00 INFO $old_status: pending
+2021-03-30T16:13:47-06:00 INFO $new_status: on-hold
+2021-03-30T16:13:47-06:00 INFO get_payment_method: openpay_spei
+2021-03-30T22:23:38+00:00 DEBUG action_woocommerce_checkout_create_order => {"$this->capture":true}
+2021-03-30T16:24:42-06:00 INFO get_shipping_postcode: 06600
+2021-03-30T16:24:42-06:00 INFO _openpay_customer_id: 
+2021-03-30T16:24:42-06:00 INFO _pdf_url: https://sandbox-dashboard.openpay.mx/paynet-pdf/mxpy2az9jveeoyomkbiz/1010103635325683
+2021-03-30T16:24:42-06:00 INFO email_id: customer_on_hold_order
+2021-03-30T16:24:42-06:00 INFO order_id: 10101
+2021-03-30T16:24:42-06:00 INFO basedir: /var/www/wordpress/wp-content/uploads
+2021-03-30T16:25:13-06:00 INFO openpay_woocommerce_order_status_change_custom
+2021-03-30T16:25:13-06:00 INFO $old_status: pending
+2021-03-30T16:25:13-06:00 INFO $new_status: on-hold
+2021-03-30T16:25:13-06:00 INFO get_payment_method: openpay_stores
