@@ -1,0 +1,19 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.jetaccess {
+  margin: 10px;
+}
+.jetaccess h1 {
+  margin-bottom: 10px;
+}
+.jetaccess p {
+  font-size: 1rem;
+}
+.jetaccess .success-message {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-left: 5px solid #46b450;
+  font-size: 0.875rem;
+}
