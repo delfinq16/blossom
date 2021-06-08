@@ -52,7 +52,6 @@ function get_remote_inventory() {
                 array_push($products, $row);
             }
         }
-        $test= 2;
         return $products;
     }
 }
