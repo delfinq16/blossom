@@ -1,3 +1,29 @@
+# -----------------------------------------------------------------
+# General WP ignore based on Bare Minimun gitignore: http://git-scm.com/docs/gitignore
+# -----------------------------------------------------------------
+
+# ingnore wp-config.php though it is also ignored in Jenkins
+wp-config.php
+
+# ignore all files starting with .
+.*
+
+# track this file .gitignore (i.e. do NOT ignore it)
+!.gitignore
+
+# track .htaccess file (i.e. do NOT ignore it)
+!.htaccess
+
+# ignore all files that start with ~
+~*
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# ignore log files 
+*.log
+
 # ignore everything in the root except the "wp-content" directory.
 #!wp-content/
 
@@ -21,3 +47,4 @@
 #*.log
 #*.sql
 #*.sqlite
+

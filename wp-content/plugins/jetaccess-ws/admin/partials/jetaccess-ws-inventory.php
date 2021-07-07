@@ -55,47 +55,64 @@ function get_remote_inventory() {
         return $products;
     }
 }
-function product_exists_in_inventory($sku) {
+function get_local_inventory() {
     $args = array(
         'post_type' => 'product',
-        'meta_query' => array(
-            'relation' => 'AND',
-            array(
-                'key'       => '_sku',
-                'compare'   => '=',
-                'value'     => $sku,
-            ),
-
-        ),
+        'posts_per_page' => -1,
     );
     $query = new WP_Query( $args );
     if(!empty($query->posts)) {
-        return $query->posts[0]->ID;
+        return $query->posts;
     }
     return false;
 }
 
-function update_inventory() {
+function organize_remote_inventory() {
     $inventory = get_remote_inventory();
+    $organized_inventory = array();
     foreach ($inventory as $product) {
-        $sku = $product['attributes']['SKU'];
-        $product_id = product_exists_in_inventory($sku);
-        if($product_id) {
-            $stock = $product['attributes']['STOCK'];
-            $local_stock = get_post_meta($product_id, '_stock')[0];
-            if($stock == $local_stock) continue;
-            $stock_status = ($stock > 0 ) ? 'stock' : 'outofstock';
-            $title = get_the_title( $product_id );
-            $product_update = array(
-                'ID' => $product_id,
-                'post_title'   =>  $title,
-                'post_type' => 'product',
-                'meta_input'   => array(
-                    '_stock' => $stock,
-                    '_stock_status' => $stock_status
-                ),
-            );
-            wp_update_post( $product_update );
+        if(isset($organized_inventory[$product['attributes']['SKU']])) {
+            $organized_inventory[$product['attributes']['SKU']] +=  $product['attributes']['STOCK'];
+        } else {
+            $organized_inventory[$product['attributes']['SKU']] =  intval($product['attributes']['STOCK']);
+        }
+        
+    }
+    return $organized_inventory;
+}
+
+function compare_stocks($sku, $remote_inventory) {
+    return isset($remote_inventory[$sku]) ? $remote_inventory[$sku] : false;
+}
+
+function update_inventory() {
+    $remote_inventory = organize_remote_inventory();
+    $local_inventory = get_local_inventory();
+    foreach ($local_inventory as $product) {
+        $product_id = $product->ID;
+        $product = wc_get_product( $product_id );
+        $product_sku = $product->get_sku();
+        $product_variants = $product->get_children();
+        //Update product
+        $product_found = compare_stocks($product_sku, $remote_inventory);
+        if($product_found  !== false) {
+            $product_stock = ($product_found > 0) ? 'stock' : 'outofstock';
+            update_post_meta( $product_id, '_stock', $product_found );
+            if($product_found > 0 ) {
+                update_post_meta( $product_id, '_stock_status', $product_stock );
+            }
+        }
+        //Update variants
+        foreach($product_variants as $variant) {
+            $variant_sku = get_post_meta( $variant, '_sku', true );
+            $variant_found = compare_stocks($variant_sku, $remote_inventory);
+            if($variant_found !== false) {
+                $variant_stock = ($variant_found > 0) ? 'stock' : 'outofstock';
+                update_post_meta( $variant, '_stock', $variant_found);
+                if($variant_found > 0 ) {
+                    update_post_meta( $variant, '_stock_status', $variant_stock );
+                }
+            }
         }
     }
 }

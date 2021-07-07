@@ -77,6 +77,7 @@ class Jetaccess_Ws {
 		$this->load_dependencies();
 		$this->set_locale();
 		$this->define_admin_hooks();
+		$this->user_register_listener();
 
 	}
 
@@ -190,6 +191,13 @@ class Jetaccess_Ws {
 	 */
 	public function get_version() {
 		return $this->version;
+	}
+
+	public function user_register_listener() {
+		add_action( 'user_register', function($user_id) {
+			require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/partials/jetaccess-ws-create-user.php';
+			register_customer($user_id);
+		});
 	}
 
 }
