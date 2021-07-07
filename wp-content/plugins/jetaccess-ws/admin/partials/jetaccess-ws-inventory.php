@@ -71,14 +71,18 @@ function organize_remote_inventory() {
     $inventory = get_remote_inventory();
     $organized_inventory = array();
     foreach ($inventory as $product) {
-        array_push($organized_inventory, array("sku" => $product['attributes']['SKU'], "stock" => $product['attributes']['STOCK']));
+        if(isset($organized_inventory[$product['attributes']['SKU']])) {
+            $organized_inventory[$product['attributes']['SKU']] +=  $product['attributes']['STOCK'];
+        } else {
+            $organized_inventory[$product['attributes']['SKU']] =  intval($product['attributes']['STOCK']);
+        }
+        
     }
     return $organized_inventory;
 }
 
 function compare_stocks($sku, $remote_inventory) {
-    $element = array_column($remote_inventory, 'stock', 'sku');
-    return isset($element[$sku]) ? $element[$sku] : false;
+    return isset($remote_inventory[$sku]) ? $remote_inventory[$sku] : false;
 }
 
 function update_inventory() {
